@@ -335,7 +335,6 @@ li {
 .case_container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .case_left {
@@ -344,7 +343,7 @@ li {
 }
 
 .case_left img {
-  max-width: 500px;
+  max-width: 350px;
   max-height: 500px;
   object-fit: contain;
   border:#1E0C45 2px solid;
@@ -354,6 +353,7 @@ li {
 .case_right {
   font-size: 20px;
   margin-left: 5%;
+  margin-top: -0.4em;
 }
 
 .case_callout {
