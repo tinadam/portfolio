@@ -9,7 +9,7 @@ body {
 }
   
 .bolded {
-  color: #FF00C9;
+  color: #1E0C45;
   font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ h4 {
 
 .case_section {
   font-size: 20px;
-  color: #4500F5;
+  color: #FF00C9;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
@@ -64,7 +64,7 @@ footer {
   justify-content: center;
   align-items: center;
   background-color:#1E0C45;
-  height: 75px;
+  height: 100px;
   padding: auto;
   font-size: 16px;
   color: #FFFEF9;
@@ -258,6 +258,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  padding-top: 8%;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2%;
@@ -317,6 +318,12 @@ li {
   margin-left: -1em;
 }
 
+.container span.bolded {
+  font-size: 20px;
+  color: #4500F5;
+  display: inline-block !important;
+}
+
 .container a {
   font-size: 20px;
   color: #4500F5;
@@ -352,7 +359,7 @@ li {
 
 
 .case_right {
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: -0.4em;
 }
 
@@ -361,7 +368,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   padding: 32px 5% 32px;
-  border-color: #4500F5;
+  border-color: #FF00C9;
   border-width: 2px;
   border-radius: 20px;
   border-style: solid;
