@@ -9,7 +9,7 @@ body {
 }
   
 .bolded {
-  color: #1E0C45;
+  color: #4500F5;
   font-weight: bold;
 }
 
@@ -305,25 +305,6 @@ li {
   border:#1E0C45 2px solid;
 }
 
-.container ul {
-  list-style: none;
-}
-
-.container li::before {
-  content: "○";
-  font-size: 20px;
-  color: #4500F5;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
-.container span.bolded {
-  font-size: 20px;
-  color: #4500F5;
-  display: inline-block !important;
-}
-
 .container a {
   font-size: 20px;
   color: #4500F5;
@@ -357,7 +338,6 @@ li {
   border:#1E0C45 2px solid;
 }
 
-
 .case_right {
   margin-left: 10%;
   margin-top: -0.4em;
@@ -373,6 +353,26 @@ li {
   border-radius: 20px;
   border-style: solid;
   font-weight: bold;
+}
+
+.row {
+  display: inline-block;
+  text-align: match-parent;
+}
+
+.row span.bolded {
+  margin-left: -0.65em;
+  margin-right: -0.65em;
+}
+
+.container ul span.bolded {
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+.case_callout span.bolded {
+  margin-left: 0em;
+  margin-right: 0em;
 }
 
 
@@ -603,6 +603,23 @@ a:hover {
 
 
     white-space: nowrap;
+
+
+
+    .container ul {
+  list-style: none;
+}
+
+.container li::before {
+  content: "\f0c2";
+  font-family: "Font Awesome 5 Free";
+  padding: 15px 30px 0 0;
+  font-size: 18px;
+  color: #1E0C45;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
 
 
   */
