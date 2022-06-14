@@ -33,13 +33,19 @@ h3 {
 h4 {
   font-size: 45px;
   color: #FF00C9;
-  line-height: 50%;
+  line-height: 20%;
 }
 
 .case_section {
-  font-size: 28px;
+  font-size: 20px;
   color: #4500F5;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 250%;
+  margin-left: -0.63em;
   }
+
 
 a {
   text-decoration: none;
@@ -61,7 +67,7 @@ footer {
   height: 75px;
   padding: auto;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #FFFEF9;
 }
 
 /*  ----------------- MEDIA QUERIES ----------------- */
@@ -91,8 +97,8 @@ footer {
   
   h4 {
     font-size: 42px;
-    color: #4500F5;
-    line-height: 100%;
+    color: #FF00C9;
+    line-height: 20%;
   }
 
 }
@@ -117,7 +123,7 @@ footer {
   display: flex;
   text-decoration: none;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #FFFEF9;
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -160,14 +166,14 @@ li {
   display: flex;
   flex-direction: column;
   margin-top: 150px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   line-height: 85%;
 }
 
 .hello img {
-  max-width: 90%;
-  max-height: 500px;
+  max-width: 100%;
+  max-height: 600px;
 }
 
 .work {
@@ -185,14 +191,14 @@ li {
 .work a {
   text-decoration: none;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #FFFEF9;
   font-size: 48px;
   transition-delay: 0.2s;
 }
 
 .work a:hover {
   text-decoration: none;
-  color: #FFFFFF !important;
+  color: #FFFEF9 !important;
   font-size: 56px !important;
 }
 
@@ -245,7 +251,7 @@ li {
 
 .me_body a:hover {
   text-decoration: none;
-  color: #FFFFFF !important;
+  color: #FFFEF9 !important;
 }
 
 #process {
@@ -321,7 +327,40 @@ li {
   max-width: 100%;
 }
 
+.case_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.case_left {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.case_left img {
+  max-width: 500px;
+  max-height: 500px;
+  object-fit: contain;
+  border:#1E0C45 2px solid;
+}
+
+
+.case_right {
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.case_callout {
+  background-color: #02eb960c;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px 5% 32px;
+  border-color: #4500F5;
+  border-width: 2px;
+  border-radius: 20px;
+  border-style: solid; 
+}
 
 
 
