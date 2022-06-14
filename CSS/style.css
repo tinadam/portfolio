@@ -291,6 +291,11 @@ li {
   border-bottom: 3px solid #02EB96;
 }
 
+.case_wrapper {
+  width: 768px;
+  margin: auto;
+}
+
 .container img {
   max-width: 700px;
   max-height: 500px;
