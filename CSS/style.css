@@ -70,6 +70,10 @@ footer {
   color: #FFFEF9;
 }
 
+footer img {
+  max-height: 20px;
+}
+
 /*  ----------------- MEDIA QUERIES ----------------- */
 
 @media only screen and (max-width: 1000px) {
