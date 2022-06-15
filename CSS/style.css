@@ -147,7 +147,7 @@ ul {
 }
 
 .logo img {
-  max-height: 60px;
+  max-height: 40px;
 }
 
 .menu {
@@ -315,10 +315,6 @@ li {
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
-}
-
-.divider img {
-  max-width: 100%;
 }
 
 .case_container {
