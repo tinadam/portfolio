@@ -316,9 +316,15 @@ li {
 }
 
 .divider {
+  display: flex;
+  justify-content: center;
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.divider img {
+  max-width: 120%;
 }
 
 .case_container {
@@ -361,18 +367,18 @@ li {
 }
 
 .row span.bolded {
-  margin-left: -0.65em;
-  margin-right: -0.65em;
+  margin-left: -0.60em;
+  margin-right: -0.60em;
 }
 
 .container ul span.bolded {
-  margin-left: 0em;
-  margin-right: 0em;
+  margin-left: 0.08em;
+  margin-right: 0.08em;
 }
 
 .case_callout span.bolded {
-  margin-left: 0em;
-  margin-right: 0em;
+  margin-left: 0.08em;
+  margin-right: 0.08em;
 }
 
 
