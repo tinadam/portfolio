@@ -16,29 +16,40 @@ body {
 h1 {
   font-size: 96px;
   color: #1E0C45;
+  text-transform: lowercase;
+  font-weight: lighter;
+  display: inline-block;
 }
 
 h2 {
   font-size: 64px;
   color: #4500F5;
-  line-height: 50%;
+  line-height: 150%;
+  text-transform: lowercase;
+  font-weight: lighter;
+  display: inline-block;
 }
 
 h3 {
   font-size: 48px;
   color: #FF00C9;
-  line-height: 50%;
+  line-height: 20%;
+  font-weight: bolder;
+  text-transform: lowercase;
 }
 
 h4 {
-  font-size: 45px;
-  color: #FF00C9;
-  line-height: 20%;
+  font-size: 32px;
+  color: #1E0C45;
+  text-transform: lowercase;
+  display: inline-block;
+  font-weight: lighter;
+  letter-spacing: 9px;
 }
 
 .case_section {
   font-size: 20px;
-  color: #FF00C9;
+  color: #4500F5;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
@@ -97,12 +108,6 @@ footer img {
     font-size: 48px;
     color: #FF00C9;
     line-height: 100%;
-  }
-  
-  h4 {
-    font-size: 42px;
-    color: #FF00C9;
-    line-height: 20%;
   }
 
 }
@@ -166,10 +171,24 @@ li {
 
 
 /* ----------------- HOME PAGE ----------------- */
+.helloooo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-left: 12%;
+  margin-bottom: 5%;
+  line-height: 85%;
+}
+
+.helloooo h1 {
+  font-weight: lighter;
+  letter-spacing: 9px;
+  font-size: 32px;
+}
+
 .hello {
   display: flex;
-  flex-direction: column;
-  margin-top: 150px;
+  flex-direction: row;
   margin-left: 2%;
   margin-right: 2%;
   line-height: 85%;
@@ -186,10 +205,11 @@ li {
 }
 
 .work img {
-  max-width: 800px;
-  max-height: 500px;
+  max-width: 700px;
+  max-height: 250px;
   object-fit: contain;
   background-color: #FF00C9;
+  padding: 8%;
 }
 
 .work a {
@@ -212,7 +232,6 @@ li {
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: 5%;
   background-color: #4500F5;
 }
 
@@ -222,6 +241,8 @@ li {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  padding-right: 4%;
+  padding-left: 4%;
 }
 
 
@@ -238,6 +259,8 @@ li {
 .me_body {
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   opacity: 0;
 }
 
@@ -265,7 +288,7 @@ li {
   padding-top: 8%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 2%;
+  padding-bottom: 12%;
 }
 
 #process img {
