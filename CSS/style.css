@@ -357,12 +357,11 @@ li {
 }
 
 .case_left {
-  font-size: 20px;
   white-space: nowrap;
 }
 
 .case_left img {
-  max-width: 350px;
+  max-width: 400px;
   max-height: 500px;
   object-fit: contain;
   border:#1E0C45 2px solid;
@@ -395,21 +394,10 @@ li {
   margin-right: -0.60em;
 }
 
-.container ul span.bolded {
+.container ul span.bolded, .case_callout span.bolded, .case_right span.bolded, .case_left span.bolded {
   margin-left: 0.08em;
   margin-right: 0.08em;
 }
-
-.case_callout span.bolded {
-  margin-left: 0.08em;
-  margin-right: 0.08em;
-}
-
-
-
-
-
-
 
 
 
