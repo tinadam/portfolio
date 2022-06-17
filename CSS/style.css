@@ -45,6 +45,7 @@ h4 {
   display: inline-block;
   font-weight: lighter;
   letter-spacing: 9px;
+  line-height: 100%;
 }
 
 .case_section {
