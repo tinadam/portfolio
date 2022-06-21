@@ -18,16 +18,13 @@ h1 {
   color: #1E0C45;
   text-transform: lowercase;
   font-weight: bolder;
-  display: inline-block;
 }
 
 h2 {
   font-size: 64px;
   color: #4500F5;
-  line-height: 150%;
   text-transform: lowercase;
   font-weight: bolder;
-  display: inline-block;
 }
 
 h3 {
@@ -42,10 +39,8 @@ h4 {
   font-size: 32px;
   color: #1E0C45;
   text-transform: lowercase;
-  display: inline-block;
   font-weight: lighter;
   letter-spacing: 9px;
-  line-height: 100%;
 }
 
 .case_section {
@@ -176,7 +171,7 @@ li {
   display: flex;
   flex-direction: row;
   margin-top: 100px;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-bottom: 5%;
   line-height: 85%;
 }
