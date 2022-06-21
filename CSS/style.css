@@ -202,7 +202,6 @@ li {
   max-width: 700px;
   max-height: 250px;
   object-fit: contain;
-  background-color: #FF00C9;
   padding: 5%;
 }
 
@@ -216,7 +215,7 @@ li {
 
 .work a:hover {
   text-decoration: none;
-  color: #FFFEF9 !important;
+  color: #02EB96 !important;
   font-size: 56px !important;
 }
 
@@ -226,7 +225,7 @@ li {
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #4500F5;
+  background-color: #1E0C45;
   padding-right: 4%;
 }
 
