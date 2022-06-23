@@ -161,9 +161,8 @@ footer img {
     top: 0;
   }
   .menu ul.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
   }
 }
 
