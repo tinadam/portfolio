@@ -36,9 +36,6 @@ $(function() {
     });
 });
 
-
-
-
 $(document).ready(function() {
     var navpos = $('#casenav').offset();
     console.log(navpos.top);

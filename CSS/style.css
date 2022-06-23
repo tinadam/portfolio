@@ -131,6 +131,43 @@ footer img {
 }
 
 
+@media only screen and (max-width: 768px) {
+  .case_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .case_body {
+    display: flex;
+        flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .menu ul a {display: none;}
+  .menu ul a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .menu ul.responsive {position: relative;}
+  .menu ul.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu ul.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
 
 /*  ----------------- NAVIGATION ----------------- */
 .header_nav {
@@ -181,7 +218,11 @@ ul {
 .menu {
   display: flex;
   justify-content: flex-end;
-  padding-right: 5%;
+  padding-right: 2%;
+}
+
+.menu ul .icon {
+  display: none;
 }
 
 li {
@@ -436,6 +477,7 @@ li {
   padding-top: 1%;
   padding-left: 5%;
   padding-right: 5%;
+  width: 100%;
 }
 
 .case_nav a {
@@ -713,43 +755,6 @@ a:hover {
   margin-bottom: -8em;
   z-index: -1;
 }
-
-
-
-$(document).ready(function() {
-    //change the integers below to match the height of your upper div, which I called
-    //banner.  Just add a 1 to the last number.  console.log($(window).scrollTop())
-    //to figure out what the scroll position is when exactly you want to fix the nav
-    //bar or div or whatever.  I stuck in the console.log for you.  Just remove when
-    //you know the position.
-    $(window).scroll(function () { 
-  
-      console.log($(window).scrollTop());
-  
-      if ($(window).scrollTop() > 895) {
-        $('.case_nav').addClass('case_nav-fixed');
-      }
-  
-      if ($(window).scrollTop() < 896) {
-        $('.case_nav').removeClass('case_nav-fixed');
-      }
-    });
-  });
-
-
-
-$(document).ready(function() {
-    var navpos = $('#mainnav').offset();
-    console.log(navpos.top);
-      $(window).bind('scroll', function() {
-        if ($(window).scrollTop() > navpos.top) {
-         $('#mainnav').addClass('case_nav-fixed');
-         }
-         else {
-           $('#mainnav').removeClass('case_nav-fixed');
-         }
-      });
-  });
 
 
 
