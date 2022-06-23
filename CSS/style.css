@@ -3,7 +3,7 @@ body {
     margin: 0 !important;
     background-color:#FFFEF9;
     color: #1E0C45;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Work Sans', 'Arial', sans-serif;
     font-weight: lighter;
 }
@@ -18,6 +18,7 @@ h1 {
   color: #1E0C45;
   text-transform: lowercase;
   font-weight: bolder;
+  display: inline-block;
 }
 
 h2 {
@@ -44,15 +45,14 @@ h4 {
 }
 
 .case_section {
-  font-size: 20px;
+  font-size: 18px;
   color: #4500F5;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 250%;
   margin-left: -0.63em;
-  }
-
+}
 
 a {
   text-decoration: none;
@@ -89,24 +89,47 @@ footer img {
   }
 
   h1 {
-    font-size: 96px;
-    color: #1E0C45;
-    line-height: 100%;
+    font-size: 64px;
   }
 
   h2 {
     font-size: 64px;
-    color: #4500F5;
-    line-height: 100%;
   }
   
   h3 {
     font-size: 48px;
-    color: #FF00C9;
-    line-height: 100%;
+  }
+
+  .hi_there {
+    margin-bottom: 15%;
   }
 
 }
+
+
+@media only screen and (max-width: 300px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+  
+  h3 {
+    font-size: 48px;
+  }
+
+  .hi_there {
+    margin-bottom: 75%;
+  }
+
+}
+
 
 
 /*  ----------------- NAVIGATION ----------------- */
@@ -167,13 +190,20 @@ li {
 
 
 /* ----------------- HOME PAGE ----------------- */
+.hi_there {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .helloooo {
   display: flex;
-  flex-direction: row;
-  margin-top: 150px;
-  margin-left: 15%;
+  flex-direction: column;
+  margin-left: 40%;
   margin-bottom: 5%;
-  line-height: 85%;
+  margin-right: 15%;
 }
 
 .hello {
@@ -181,11 +211,10 @@ li {
   flex-direction: row;
   margin-left: 5%;
   margin-right: 5%;
-  line-height: 85%;
 }
 
 .hello img {
-  max-width: 100%;
+  max-width: 65%;
 }
 
 .work {
@@ -295,7 +324,7 @@ li {
   font-size: 36px;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 12%;
+  padding-top: 5%;
   padding-bottom: 2%;
   line-height: 120%;
 }
@@ -315,7 +344,7 @@ li {
 }
 
 .case_body a {
-  font-size: 20px;
+  font-size: 18px;
   color: #4500F5;
   border-bottom: 3px solid #02EB96;
 }
@@ -333,7 +362,7 @@ li {
 }
 
 .container a {
-  font-size: 20px;
+  font-size: 18px;
   color: #4500F5;
   border-bottom: 3px solid #02EB96;
 }
@@ -636,6 +665,30 @@ a:hover {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+
+<div class="helloooo">
+    <h1>hi there. my name is</h1><h1 style="color: #4500F5">Tina Dam</h1>
+    <h1>i am a</h1><h1 style="color: #4500F5">UX designer in NYC</h1>
+  </div>
+
+   <div class="hello"> 
+      <center><img src="images/portfolio_hello_v2.gif">
+
+      <br><br><br><br>
+      <h4>my name is</h4><h1>Tina Dam</h1><br>
+      <h4>i am a</h4><h2>UX designer in NYC</h2><br><br><br><br><br><br><br><br><br>
+      <h3>Check out my work below</h3><br><br>
+      <img src="images/arrow.png" style="max-height: 500px;"></center>
+  </div>  <a id="work"></a>
+
+  <br><br><br><br>
+
+.hi_there img {
+  margin-top: -12em;
+  margin-bottom: -8em;
+  z-index: -1;
 }
 
 
