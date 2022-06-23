@@ -48,3 +48,13 @@ $(document).ready(function() {
          }
       });
   });
+
+  
+  function myFunction() {
+    var x = document.getElementById("myMenunav");
+    if (x.className === "menu li") {
+      x.className += " responsive";
+    } else {
+      x.className = "menu li";
+    }
+  }
