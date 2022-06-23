@@ -212,8 +212,8 @@ footer img {
 
 
 @media screen and (max-width: 600px) {
-  .menu ul a {display: none;}
-  .menu ul a.icon {
+  .menu ul li:not(.icon) {display: none;}
+  .menu ul li.icon {
     float: right;
     display: block;
   }
@@ -221,15 +221,15 @@ footer img {
 
 
 @media screen and (max-width: 600px) {
-  .menu ul.responsive {position: relative;
+  .menu.responsive {position: relative;
     height: 300px;
   }
-  .menu ul.responsive a.icon {
+  .menu.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .menu ul.responsive a {
+  .menu ul.responsive ul li {
     float: none;
     display: block;
     text-align: right;
