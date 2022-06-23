@@ -418,8 +418,8 @@ li {
 }
 
 .row span.bolded {
-  margin-left: -0.60em;
-  margin-right: -0.60em;
+  margin-left: -0.70em;
+  margin-right: -0.70em;
 }
 
 .container ul span.bolded, .case_callout span.bolded, .case_right span.bolded, .case_left span.bolded {
@@ -427,6 +427,28 @@ li {
   margin-right: 0.08em;
 }
 
+.case_nav {
+  background-color: #FFFEF9;
+  color: #4500F5;
+  top: 0;
+  position: relative;
+  height: 60px;
+  padding-top: 1%;
+  padding-left: 5%;
+}
+
+.case_nav a {
+  font-size: 18px;
+  color: #4500F5;
+  border-bottom: 3px solid #02EB96;
+}
+
+.case_nav-fixed {
+  top: 75px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
 
 
 
