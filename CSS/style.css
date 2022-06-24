@@ -87,19 +87,24 @@ footer img {
   .body img {
     max-width: 768px !important;
   }
-
+  .case_intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 768px;
+    padding-left: 0%;
+    margin-top: 3em;
+  }
   .container img {
     max-width: 400px !important;
     object-fit: contain;
     border:#1E0C45 2px solid;
   }
-
   .case_left img {
     max-height: 400px !important;
     object-fit: contain;
     border:#1E0C45 2px solid;
   }
-
   .case_container img {
     max-width: 400px !important;
     object-fit: contain;
@@ -108,7 +113,7 @@ footer img {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 320px) {
   body {
     font-size: 14px;
   }
@@ -154,21 +159,22 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 320px;
-    padding-left: 0%;
+    margin-left: 5%;
+    margin-top: 3em;
   }
   .case_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: start;
     max-width: 320px;
-    padding-left: 0%;
+    margin-left: 5%;
   }
   .case_body {
     display: flex;
     flex-direction: column;
     justify-content: start;
     max-width: 320px;
-    padding-left: 0%;
+    margin-left: 5%;
   }
   .container {
     display: flex;
@@ -232,10 +238,10 @@ footer img {
   .menu.responsive ul li {
     float: none;
     display: block;
-    top: 75px;
+    top: 200px;
     padding-right: 1%;
     text-align: right;
-    z-index: 3;
+    z-index: 100;
   }
 }
 
@@ -440,7 +446,7 @@ li {
   font-size: 36px;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 5%;
+  padding-top: 8%;
   padding-bottom: 2%;
   line-height: 120%;
 }
