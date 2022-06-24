@@ -214,6 +214,7 @@ footer img {
 @media screen and (max-width: 600px) {
   .menu ul li:not(.icon) {display: none;}
   .menu ul li.icon {
+    float: right;
     display: block;
   }
 }
@@ -228,7 +229,7 @@ footer img {
   }
   .menu.responsive ul li {
     float: none;
-    display: block !important;
+    display: block;
     text-align: left;
   }
 }
@@ -249,7 +250,7 @@ footer img {
 
 .header_nav ul, .header_nav a {
   list-style: none;
-  display: flex;
+  display: inline-block;
   text-decoration: none;
   font-weight: bold;
   color: #FFFEF9;
@@ -287,11 +288,11 @@ ul {
 
 .menu .icon {
   display: none;
-  float: right;
 }
 
 li {
   padding-right: 25px;
+  display: inline-block;
 }
 
 
