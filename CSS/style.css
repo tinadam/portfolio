@@ -227,7 +227,7 @@ footer img {
   .menu.responsive .icon {
     position: absolute;
     right: 25px;
-    top: 25px;
+    top: 70px;
   }
   .menu.responsive ul li {
     float: none;
@@ -294,8 +294,12 @@ ul {
   display: none;
 }
 
+li .icon {
+  padding-right: 0px;
+}
+
 li {
-  padding-right: 25px;
+  padding-right: 12px;
   display: inline-block;
 }
 
