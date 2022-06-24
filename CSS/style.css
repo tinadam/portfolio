@@ -228,7 +228,7 @@ footer img {
   }
   .menu.responsive ul li {
     float: none;
-    display: block;
+    display: block !important;
     text-align: left;
   }
 }
@@ -237,9 +237,7 @@ footer img {
 
 /*  ----------------- NAVIGATION ----------------- */
 .header_nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: inline-table;
   list-style: none;
   background-color: #FFFEF9;
   height: 75px;
@@ -272,9 +270,9 @@ ul {
 }
 
 .logo {
-  display: flex;
-  justify-content: flex-start;
+  display: inline-block;
   padding-left: 5%;
+  padding-top: 25px;
 }
 
 .logo img {
@@ -282,9 +280,9 @@ ul {
 }
 
 .menu {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 2%;
+  display: inline-block;
+  float: right;
+  padding-right: 5%;
 }
 
 .menu .icon {
