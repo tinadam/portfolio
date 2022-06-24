@@ -28,7 +28,7 @@
       <li><a href="index.html#work" style="color:#FF00C9;">WORK </a></li>
       <li><a href="about.html" style="color:#4500F5;">ABOUT </a></li>
       <li><a href="Tina Dam Resume_5-2022.pdf" target="_blank" style="color:#1E0C45;">RESUME </a></li>
-      <li><a style="color:#1E0C45;" href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <li class="icon"><a style="color:#1E0C45;" href="javascript:void(0);" onclick="myFunction()">
         <i class="fa-solid fa-burger"></i></a></li>
     </ul>
   </div>
@@ -536,6 +536,16 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
+<script>
+  function myFunction() {
+var x = document.getElementById("myMenunav");
+if (x.className === "menu") {
+  x.className += " responsive";
+} else {
+  x.className = "menu";
+}
+}
+</script>
 <script
 src="https://code.jquery.com/jquery-3.6.0.min.js"
 integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
