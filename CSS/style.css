@@ -216,6 +216,8 @@ footer img {
   .menu ul li.icon {
     float: right;
     display: block;
+    right: 25px;
+    top: 25px;
   }
 }
 
@@ -224,13 +226,15 @@ footer img {
   .menu.responsive {position: relative;}
   .menu.responsive .icon {
     position: absolute;
-    right: 0;
+    right: 25px;
     top: 25px;
   }
   .menu.responsive ul li {
     float: none;
     display: block;
+    padding-right: 1%;
     text-align: right;
+    z-index: 3;
   }
 }
 
@@ -552,7 +556,7 @@ li {
 
 .case_nav-fixed {
   top: 75px;
-  z-index: 100;
+  z-index: 2;
   position: fixed;
   width: 100%;
 }
