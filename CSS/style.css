@@ -225,6 +225,16 @@ footer img {
     right: 25px;
     top: 25px;
   }
+
+  ul {
+    display: block !important;
+    list-style-type: disc !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    padding-inline-start: 40px !important;
+  }
 }
 
 
@@ -238,7 +248,8 @@ footer img {
   .menu.responsive ul li:not(.icon) {
     float: none;
     display: block;
-    padding-top: 75px;
+    position: absolute;
+    top: 75px;
     padding-right: 1%;
     text-align: right;
     z-index: 100;
