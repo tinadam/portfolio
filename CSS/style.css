@@ -235,10 +235,10 @@ footer img {
     right: 25px;
     top: 25px;
   }
-  .menu.responsive ul li {
+  .menu.responsive ul li:not(.icon) {
     float: none;
     display: block;
-    margin-top: 75px;
+    padding-top: 75px;
     padding-right: 1%;
     text-align: right;
     z-index: 100;
