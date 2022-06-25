@@ -9,12 +9,12 @@ body {
 }
   
 .bolded {
-  color: #4500F5;
+  color: #1E0C45;
   font-weight: bold;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 72px;
   color: #1E0C45;
   text-transform: lowercase;
   font-weight: lighter;
@@ -50,7 +50,6 @@ h4 {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 250%;
   margin-left: -0.63em;
 }
 
@@ -87,6 +86,13 @@ footer img {
   .body img {
     max-width: 768px !important;
   }
+  .hi_there {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10em;
+    margin-left: 55%;
+    margin-right: 15%;
+  }
   .case_intro {
     display: flex;
     flex-direction: column;
@@ -98,17 +104,14 @@ footer img {
   .container img {
     max-width: 400px !important;
     object-fit: contain;
-    border:#1E0C45 2px solid;
   }
   .case_left img {
     max-height: 400px !important;
     object-fit: contain;
-    border:#1E0C45 2px solid;
   }
   .case_container img {
     max-width: 400px !important;
     object-fit: contain;
-    border:#1E0C45 2px solid;
   }
 }
 
@@ -127,7 +130,11 @@ footer img {
     font-size: 24px;
   }
   .hi_there {
-    margin-bottom: 75%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10em;
+    margin-left: 55%;
+    margin-right: 15%;
   }
   .work a {
     text-decoration: none;
@@ -202,17 +209,14 @@ footer img {
   .container img {
     max-width: 200px !important;
     object-fit: contain;
-    border:#1E0C45 2px solid;
   }
   .case_left img {
     max-height: 200px !important;
     object-fit: contain;
-    border:#1E0C45 2px solid;
   }
   .case_container img {
     max-width: 200px !important;
     object-fit: contain;
-    border:#1E0C45 2px solid;
   }
 }
 
@@ -265,7 +269,7 @@ footer img {
   text-decoration: none;
   font-weight: bold;
   color: #FFFEF9;
-  font-size: 30px;
+  font-size: 28px;
   text-transform: uppercase;
 }
 
@@ -284,17 +288,22 @@ ul {
 .logo {
   display: inline-block;
   padding-left: 5%;
-  padding-top: 25px;
+  padding-top: 18px;
 }
 
 .logo img {
-  max-height: 40px;
+  max-height: 45px;
 }
 
 .menu {
   display: inline-block;
   float: right;
   padding-right: 5%;
+  padding-top: 2px;
+}
+
+.menu li {
+  padding-left: 20px;
 }
 
 .menu .icon {
@@ -315,17 +324,17 @@ li {
 .hi_there {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-  margin-left: 15%;
+  margin-top: -4em;
+  margin-left: 55%;
   margin-right: 15%;
 }
 
 .helloooo {
   display: flex;
   flex-direction: column;
-  margin-left: 40%;
+  margin-left: 55%;
   margin-bottom: 5%;
-  margin-right: 15%;
+  margin-right: 10%;
 }
 
 .hello {
@@ -380,10 +389,13 @@ li {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  align-items: center;
   flex-basis: 100%;
   flex: 1;
   padding-left: 8%;
   padding-right: 4%;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 
@@ -472,7 +484,7 @@ li {
 }
 
 .case_wrapper {
-  width: 768px;
+  width: 1080px;
   margin: auto;
 }
 
@@ -480,7 +492,6 @@ li {
   max-width: 700px;
   max-height: 500px;
   object-fit: contain;
-  border:#1E0C45 2px solid;
 }
 
 .container a {
@@ -508,30 +519,29 @@ li {
 
 .case_left {
   white-space: nowrap;
+  margin-top: -0.4em;
 }
 
 .case_left img {
-  max-width: 400px;
-  max-height: 500px;
+  max-width: 600px;
+  max-height: 600px;
   object-fit: contain;
-  border:#1E0C45 2px solid;
+  margin-left: -0.60em;
 }
 
 .case_right {
-  margin-left: 5%;
+  margin-left: 15%;
   margin-top: -0.4em;
 }
 
 .case_callout {
   background-color: #FFFEF9;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 13%;
   padding: 32px 5% 32px;
   border-color: #FF00C9;
   border-width: 2px;
   border-radius: 20px;
   border-style: solid;
-  font-weight: bold;
 }
 
 .row {
@@ -540,8 +550,8 @@ li {
 }
 
 .row span.bolded {
-  margin-left: -0.70em;
-  margin-right: -0.70em;
+  margin-left: -0.60em;
+  margin-right: -0.60em;
 }
 
 .container ul span.bolded, .case_callout span.bolded, .case_right span.bolded, .case_left span.bolded {
@@ -554,8 +564,8 @@ li {
   color: #4500F5;
   top: 0;
   position: relative;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   width: 100%;
 }
 
