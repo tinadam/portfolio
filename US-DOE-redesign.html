@@ -23,11 +23,13 @@
     <a href="index.html"><img src="images/td logo.png"></a>
   </div>
 
-  <div class="menu">
+  <div class="menu" id="myMenunav">
     <ul>
-      <li><a href="index.html#work" style="color:#FF00C9;">WORK </a></li>
-      <li><a href="about.html" style="color:#4500F5;">ABOUT </a></li>
+      <li><a href="about.html" style="color:#FF00C9;">ABOUT </a></li>
+      <li><a href="index.html#work" style="color:#4500F5;">WORK </a></li>
       <li><a href="Tina Dam Resume_5-2022.pdf" target="_blank" style="color:#1E0C45;">RESUME </a></li>
+      <li class="icon"><a style="color:#1E0C45;" href="javascript:void(0);" onclick="myFunction()">
+        <i class="fa-solid fa-burger"></i></a></li>
     </ul>
   </div>
 
@@ -43,27 +45,37 @@
 
 
 <div class="case_body" style="background-color: #1E0C45; color: #FFFEF9;">
-<br><br><h2 style="color: #FFFEF9; line-height: 100%;">US Department of Education, a case study</h2>
-<br><h4 style="color: #FFFEF9;">The US Department of Education website was redesigned for improved navigation, simpler display of information, and a more welcoming feel</h4>
+  <div class="case_wrapper">
+  <br><br><h2 style="color: #FFFEF9; line-height: 100%;">US Department of Education, a case study</h2>
+  <br><h4 style="color: #FFFEF9;">The US Department of Education website was redesigned for improved navigation, simpler display of information, and a more welcoming feel</h4>
 
-<br><br>
-<span class="bolded" style="color: #FFFEF9;">Timeline:</span> 4 weeks <br>
-<span class="bolded" style="color: #FFFEF9;">Project Context:</span> Partner and solo work for UX/UI bootcamp <br>
-<span class="bolded" style="color: #FFFEF9;">My Roles:</span> UX research, UX design, UI design <br>
-<span class="bolded" style="color: #FFFEF9;">Primary Tools:</span> Figma, InVision
-
-<br><br><span class="bolded" style="color: #FFFEF9;">Jump to:</span>
-  &nbsp;<a style="color: #FFFEF9;" href="#researching">Researching</a>&nbsp; / &nbsp;<a style="color: #FFFEF9;" href="#ideating">Ideating</a>&nbsp; / &nbsp;<a style="color: #FFFEF9;" href="#prototypingtesting">Prototyping and Testing</a>&nbsp; / &nbsp;<a style="color: #FFFEF9;" href="#iterating">Iterating</a>&nbsp; / &nbsp;<a style="color: #FFFEF9;" href="#reflecting">Reflecting</a>
-<br><br><br>
+  <br><br>
+  <span class="bolded" style="color: #FFFEF9;">Timeline:</span> 4 weeks <br>
+  <span class="bolded" style="color: #FFFEF9;">Project Context:</span> Partner and solo work for UX/UI bootcamp <br>
+  <span class="bolded" style="color: #FFFEF9;">My Roles:</span> UX research, UX design, UI design <br>
+  <span class="bolded" style="color: #FFFEF9;">Primary Tools:</span> Figma, InVision
+  <br><br><br>
+  </div>
 </div>
+
+<nav class="navbar navbar-default" id="casenav">
+  <div class="case_wrapper">
+    <div class="case_nav">
+    Jump to:
+    &nbsp;<a href="#researching">Researching</a>&nbsp; / &nbsp;<a href="#ideating">Ideating</a>&nbsp; / &nbsp;<a href="#prototypingtesting">Prototyping and Testing</a>&nbsp; / &nbsp;<a href="#iterating">Iterating</a>&nbsp; / &nbsp;<a href="#reflecting">Reflecting</a>
+    </div>
+  </div>
+</nav>
+
+
 
 <div class="case_wrapper">
 
-<br><br><br><br><center><img src="images/case arrow.png" style="max-height: 200px;"></center>
-<a id="researching"></a><br><br><br><br>
+  <br><br><center><img src="images/case arrow.png" style="max-height: 200px;"><a id="researching"></a></center>
+  <br><br><br><br>
 
-</a><div class="case_body">
-<center><h3>Researching</h3></center>
+<div class="case_body">
+<center><h3> Researching </h3></center>
 <div class="divider">
   <img src="images/divider.png">
 </div>
@@ -74,86 +86,67 @@
 
 <div class="container">
   <div class="row">
-    <span class="case_section">current website analysis</span>
-  </div>
-    
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left">
-        <img src="images/DOE Project/annos.png">
-      </div>
-
-      <div class="case_right">
-        We evaluated the current website based on heuristics, accessibility, and usability. 
-        
-        <br><br><span class="bolded">Key areas for improvement included:</span>
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Ensuring that content is not repetitive and that important information is displayed prominently</li><br>
-          <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Reorganizing the navigational structure and adding more specificity to link names</li><br>
-          <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Updating the site design so that it continues to sport a minimalistic look but also appear clean and modern </li>
-        </ul>
-      </div>
+    <div class="col-3">
+      <span class="case_section">current website analysis</span>
     </div>
-  </div>
 
-  <br><br><br><br><br>
+    <div class="col-9">
+      <img src="images/DOE Project/annos.png">
+      <br><br>
+      We evaluated the current website based on heuristics, accessibility, and usability. 
+        
+      <br><br><span class="bolded">Key areas for improvement included:</span>
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Ensuring that content is not repetitive and that important information is displayed prominently</li><br>
+        <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Reorganizing the navigational structure and adding more specificity to link names</li><br>
+        <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Updating the site design so that it continues to sport a minimalistic look but also appear clean and modern </li>
+      </ul>
+    <br><br><br><br><br></div>
 
-  <div class="row">
-    <span class="case_section">user research plan</span>
-  </div>
+    <div class="col-3">
+      <span class="case_section">user research plan</span>
+    </div>
 
-  <div class="row">
-    My teammate and I hypothesized that users would mostly be students, teachers, and administrators. For this project, we focused our proto-persona and user persona on the student. <br><br>
-    We thought that students would most likely visit the website for information regarding loans and grants, <span class="bolded">so we asked users to navigate those pages on the current site</span> to find out how easy the experience was for them.
-  </div>
+    <div class="col-9">
+      My teammate and I hypothesized that users would mostly be students, teachers, and administrators. For this project, we focused our proto-persona and user persona on the student. <br><br>
+      We thought that students would most likely visit the website for information regarding loans and grants, <span class="bolded">so we asked users to navigate those pages on the current site</span> to find out how easy the experience was for them.
+    <br><br><br><br><br><br></div>
 
-  <br><br><br><br><br><br>
+    <div class="col-3">
+      <span class="case_section">key takeaways</span>
+    </div>
 
-  <div class="row">
-    <span class="case_section">key takeaways</span>
-  </div>
-
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left" style="margin-left: 0%; white-space: normal;">
+    <div class="col-9">
       <img src="images/DOE Project/DOE research_1.png"><br><br>
       <img src="images/DOE Project/DOE research_2.png"><br><br>
       <img src="images/DOE Project/DOE research_3.png">
-      </div>
-      <div class="case_right" style="margin-left: 5%;">
-        We found that:
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">2/3</span> of users opted for the Search function </li><br>
-          <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">5/6</span> of users mentioned that there was too much text to scan through </li><br>
-          <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">2/3</span> of users pointed out that wording related to the navigation was confusing </li><br>
-          <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">1/2</span> of users did not know how to return to the home page </li><br>
-          <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">1/2</span> of users verbally mentioned that website was not friendly </li>
-        </ul>
-      </div>
+      <br><br>
+      We found that:
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">2/3</span> of users opted for the Search function </li><br>
+        <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">5/6</span> of users mentioned that there was too much text to scan through </li><br>
+        <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">2/3</span> of users pointed out that wording related to the navigation was confusing </li><br>
+        <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">1/2</span> of users did not know how to return to the home page </li><br>
+        <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span><span class="bolded">1/2</span> of users verbally mentioned that website was not friendly </li>
+      </ul>
+    <br><br><br><br><br><br></div>
+
+    <div class="col-3">
+      <span class="case_section">user persona</span>
     </div>
-  </div>
 
-  <br><br><br><br><br><br>
-
-  <div class="row">
-    <span class="case_section">user persona</span>
-  </div>
-
-  <div class="case_container">
-    <div class="case_left">
+    <div class="col-9">
       <img style="max-width: 768px;" src="images/DOE Project/user persona hannah.png">
+    <br><br><br><br><br><br></div>
+
+    <div class="col-3">
+      <span class="case_section">section summary</span>
     </div>
-  </div>
 
-  <br><br><br><br><br><br>
-
-  <div class="row">
-    <span class="case_section">summary</span>
-  </div>
-
-  <div class="row">
-    <div class="case_callout">
-    The current Department of Education website may be confusing and overwhelming for student users. Based on user interviews, the current site may benefit from <span class="bolded">updates that make the site more approachable and reduce information overload.</span>
+    <div class="col-9">
+      <div class="case_callout">
+      The current Department of Education website may be confusing and overwhelming for student users. Based on user interviews, the current site may benefit from <span class="bolded">updates that make the site more approachable and reduce information overload.</span>
+      </div>
     </div>
   </div>
 </div>
@@ -163,7 +156,7 @@
 
 <div class="case_body"><br><center><a href="#top">Back to the top <i class="fa-solid fa-arrow-up"></i></a></center></div>
 
-<br><br><br><br><br><br><br><br><a id="ideating"></a><br><br><br><br>
+<a id="ideating"></a><br><br><br><br><br><br>
 
 <div class="case_body">
   <center><h3>Ideating</h3></center>
@@ -176,68 +169,50 @@
 
 
 
+
 <div class="container">
   <div class="row">
-    <span class="case_section">feature matrix</span>
-  </div>
-
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left">
-        <img src="images/DOE Project/feature prioritization matrix.png">
-      </div>
-      <div class="case_right">
-        Using the same set of research, my teammate and I proceeded individually from this point onward.<br><br> I decided to focus on simplifying primary and secondary navigation, improving wording, redesigning the search page, and updating the visual design for a more modern and friendly feel.
-      </div>
+    <div class="col-3">
+      <span class="case_section">feature matrix</span>
     </div>
-  </div>
 
-  <br><br><br><br><br><br>
-
-  <div class="row">
-    <span class="case_section">card sorting</span>
-  </div>
-
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left">
-        <img src="images/DOE Project/card sorting 2.png">
-      </div>
-      <div class="case_right">
-        Laying out the links on sticky notes helped me group content together as well as identify opportunities to redistribute or delete links.
-      </div>
+    <div class="col-9">
+      <img src="images/DOE Project/feature prioritization matrix.png">
+      <br><br>
+      Using the same set of research, my teammate and I proceeded individually from this point onward.<br><br> I decided to focus on simplifying primary and secondary navigation, improving wording, redesigning the search page, and updating the visual design for a more modern and friendly feel.
+    <br><br><br><br><br><br></div>
+ 
+    <div class="col-3">
+      <span class="case_section">card sorting</span>
     </div>
-  </div>
 
-  <br><br><br><br><br><br>
+    <div class="col-9">
+      <img src="images/DOE Project/card sorting 2.png">
+      <br><br>
+      Laying out the links on sticky notes helped me group content together as well as identify opportunities to redistribute or delete links.
+    <br><br><br><br><br><br></div>
 
-  <div class="row">
+    <div class="col-3">
       <span class="case_section">site mapping</span>
-  </div>
+    </div>
 
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left">
+    <div class="col-9">
       <img src="images/DOE Project/sitemap.png">
-      </div>
-      <div class="case_right">
+      <br><br>
       I ordered the primary and secondary content by category, hierarchy of importance based on user testing, and alphabetically otherwise. 
-      </div>
-    </div>
-  </div>
+    <br><br><br><br><br><br></div>
 
-  <br><br><br><br><br><br>
-
-    <div class="row">
-      <span class="case_section">summary</span>
+    <div class="col-3">
+      <span class="case_section">section summary</span>
     </div>
 
-    <div class="row">
+    <div class="col-9">
       <div class="case_callout">
         I wanted to refresh the website by <span class="bolded">updating navigational structure, the search option, copy specificity, and visual design.</span><br><br>
       <span class="bolded">To simplify navigation and eliminate confusion,</span> I consolidated content when possible, deleted repeated links, added more specificity to link names, deleted the sidebar navigation, and redistributed those pages into appropriate secondary pages.  
       </div>
     </div>
+  </div>
 </div>
 
 
@@ -245,10 +220,83 @@
 
 <div class="case_body"><br><center><a href="#top">Back to the top <i class="fa-solid fa-arrow-up"></i></a></center></div>
 
-<br><br><br><br><br><br><br><br><a id="prototypingtesting"></a><br><br><br><br>
+<a id="prototypingtesting"></a><br><br><br><br><br><br>
 
 <div class="case_body">
-  <center><h3>Prototyping and Testing</h3></center>
+<center><h3>Prototyping and Testing</h3></center>
+</div>
+
+<div class="divider">
+<img src="images/divider.png">
+</div><br>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+      <span class="case_section">sketches</span>
+    </div>
+
+    <div class="col-9">
+      UPLOAD SKETCHES HERE
+    <br><br><br><br><br><br></div>
+
+    <div class="col-3">
+      <span class="case_section">mobile wireframes</span>
+    </div>
+
+    <div class="col-9">
+      <img src="images/DOE Project/Home Page.png">&nbsp;&nbsp;
+      <img src="images/DOE Project/Mobile Student Loans.png">
+      <br><br>
+      I started with mobile screens to ensure responsiveness. 
+    <br><br><br><br><br><br></div>
+
+    <div class="col-3">
+    <span class="case_section">desktop wireframes</span>
+    </div>
+
+    <div class="col-9">
+      <img src="images/DOE Project/Prototype 1.png">
+      <br><br>
+      I condensed the header and footer. Since the Search option was popular among users, I brought the "About" page to the footer section in order to create room for it.
+    <br><br><br><br><br><br></div>
+
+    <div class="col-3">
+      <span class="case_section">5 second usability testing</span>
+    </div>
+
+    <div class="col-9">
+      I grabbed a handful of users to get their quick gut impressions. One user noted that she liked how prominent Accessibility options were and a different user noted that they liked the one-column layout. <br><br>
+      
+      Based on user reactions, I moved “Other Resources” down to the footer navigation area since it seemed of lesser importance. Under "Laws and Guidance," I created a “Legislation” secondary page, rather than listing all Acts out as secondary links. <br><br>
+      <br><br>
+      <img src="images/DOE Project/DOE HOME PAGE v3.png">
+    <br><br><br><br><br><br></div>
+
+    <div class="col-3">
+      <span class="case_section">section summary</span>
+    </div>
+
+    <div class="col-9">
+      <div class="case_callout">
+    I designed mobile wireframes, then desktop wireframes, and then tested some users on the navigation. I continued making adjustments so that <span class="bolded">the main navigation only housed necessary content and more attention was placed on the Accessibility and Search features.</span> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="case_body"><br><center><a href="#top">Back to the top <i class="fa-solid fa-arrow-up"></i></a></center></div>
+
+<a id="iterating"></a><br><br><br><br><br><br>
+
+<div class="case_body">
+  <center><h3>Iterating</h3></center>
 </div>
 
 <div class="divider">
@@ -260,135 +308,31 @@
 
 <div class="container">
   <div class="row">
-    <span class="case_section">sketches</span>
-  </div>
-
-  <br>
-
-  <div class="row">
-    [upload sketches here]
-  </div>
-
-  <br><br><br><br><br><br>
-
-  <div class="row">
-    <span class="case_section">mobile wireframes</span>
-  </div>
-
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left">
-        <img src="images/DOE Project/Home Page.png">&nbsp;&nbsp;
-        <img src="images/DOE Project/Mobile Student Loans.png">
-        </div>
-        <div class="case_right">
-      I started with mobile screens to ensure responsiveness. 
-        </div>
-      </div>
-    </div>
-
-<br><br><br><br><br><br>
-
-  <div class="row">
-    <span class="case_section">desktop wireframes</span>
-  </div>
-
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left">
-        <img src="images/DOE Project/Prototype 1.png">
-      </div>
-      <div class="case_right">
-      I condensed the header and footer. Since the Search option was popular among users, I brought the "About" page to the footer section in order to create room for it.
-    </div>
-  </div>
-</div>
-
-<br><br><br><br><br><br>
-
-  <div class="row">
-    <span class="case_section">5 second usability testing</span>
-  </div>
-
-  <div class="row">
-    I grabbed a handful of users to get their quick gut impressions. One user noted that she liked how prominent Accessibility options were and a different user noted that they liked the one-column layout. <br><br>
-      
-    Based on user reactions, I moved “Other Resources” down to the footer navigation area since it seemed of lesser importance. Under "Laws and Guidance," I created a “Legislation” secondary page, rather than listing all Acts out as secondary links. <br><br>
-    <div class="case_container">
-      <div class="case_left">
-        <img src="images/DOE Project/DOE HOME PAGE v3.png">
-      </div>
-    </div>
-  </div>
-
-<br><br><br><br><br><br>
-
-  <div class="row">
-    <span class="case_section">summary</span>
-  </div>
-
-  <div class="row">
-    <div class="case_callout">
-    I designed mobile wireframes, then desktop wireframes, and then tested some users on the navigation. I continued making adjustments so that <span class="bolded">the main navigation only housed necessary content and more attention was placed on the Accessibility and Search features.</span> 
-    </div>
-  </div>
-</div>
-
-
-
-
-  <div class="case_body"><br><center><a href="#top">Back to the top <i class="fa-solid fa-arrow-up"></i></a></center></div>
-
-  <br><br><br><br><br><br><br><br><a id="iterating"></a><br><br><br><br>
-  
-  <div class="case_body">
-    <center><h3>Iterating</h3></center>
-  </div>
-  
-  <div class="divider">
-    <img src="images/divider.png">
-  </div><br>
-
-
-
-
-<div class="container">
-  <div class="row">
+    <div class="col-3">
       <span class="case_section">brand style</span>
-  </div>
-
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left">
-      <img src="images/DOE Project/Style Guide.png" style="max-height: 1200px;"><br><br>
-      </div>
     </div>
+
+    <div class="col-9">
+      <img src="images/DOE Project/Style Guide.png" style="max-height: 1200px;"><br><br>
+     <br><br>
       The new style guide retains aspects of original branding but adopts a UI that hopefully creates a supportive, informative, and clean environment for users.  
-  </div>
+    <br><br><br><br><br><br></div>
 
-  <br><br><br><br><br><br>
+    <div class="col-3">
+      <span class="case_section">higher fidelity prototype</span>
+    </div>
 
-  <div class="row">
-    <span class="case_section">higher fidelity prototype</span>
-  </div>
-
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left">
+    <div class="col-9">
       <img src="images/DOE Project/mobile higher fidelity.png">&nbsp;&nbsp;
       <img src="images/DOE Project/mobile search page.png">&nbsp;&nbsp;
       <img src="images/DOE Project/desktop higher fidelity.png">
-      </div>
-    </div>
-  </div>
+    <br><br><br><br><br><br></div>
 
-  <br><br><br><br><br><br>
-
-  <div class="row">
+    <div class="col-3">
       <span class="case_section">further user testing</span>
-  </div>
+    </div>
 
-  <div class="row">
+    <div class="col-9">
       At this point, I executed another round of user testing with three tasks to see if users can locate content and complete a navigational path. 
       <br><br>
       Based on these results, I:
@@ -398,44 +342,31 @@
         <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Moved About page back into main navigation bar—although it may not be as frequently used, many users seemed to <span class="bolded">expect it as a primary link</span></li><br>
         <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Cleaned up Search page and <span class="bolded">moved the search bar up</span> based on user preferences</li>
       </ul>
-      <div class="case_container">
-        <div class="case_left">
-         <br><img src="images/DOE Project/DOE iterating_1.png">
-         <img src="images/DOE Project/DOE iterating_2.png">
-        </div>
-      </div>
-  </div>
+      <br><img src="images/DOE Project/DOE iterating_1.png">
+      <img src="images/DOE Project/DOE iterating_2.png">
+    <br><br><br><br><br><br></div>
 
-  <br><br><br><br><br><br>
+    <div class="col-3">
+      <span class="case_section">final prototype</span>
+    </div>
 
-  <div class="row">
-    <span class="case_section">final prototype</span>
-  </div>
-
-  <br>
-  
-  <div class="row">
-    <div class="case_container">
-      <div class="case_left">
+    <div class="col-9">
       <img src="images/DOE Project/Mobile Home v3.png">&nbsp;&nbsp;
       <img src="images/DOE Project/HOME PAGE v6.png"><br><br>
       <img src="images/DOE Project/HOME PAGE v6 - search page.png">
-      </div>
+      <br><br> 
+      <span class="bolded"><a style="font-size: 20px" href="https://www.figma.com/proto/zFSUOUfhdT8Ok30WD8fX2e/Untitled?node-id=402%3A6299&scaling=min-zoom&page-id=201%3A54&starting-point-node-id=402%3A6299&show-proto-sidebar=1">Click here</a> to view the final, interactive prototype.</span>
+    <br><br><br><br><br><br></div>
+
+    <div class="col-3">
+      <span class="case_section">section summary</span>
     </div>
-    <br><br> 
-    <span class="bolded"><a style="font-size: 20px" href="https://www.figma.com/proto/zFSUOUfhdT8Ok30WD8fX2e/Untitled?node-id=402%3A6299&scaling=min-zoom&page-id=201%3A54&starting-point-node-id=402%3A6299&show-proto-sidebar=1">Click here</a> to view the final, interactive prototype.</span>
-  </div>
 
-  <br><br><br><br><br><br>
-
-  <div class="row">
-    <span class="case_section">summary</span>
-  </div>
-
-  <div class="row">
-    <div class="case_callout">
+    <div class="col-9">
+      <div class="case_callout">
       I brainstormed and created a newer UI style guide to then redesign the website. Further user testing led to some last tweaks. <br><br>
       Please <a style="font-size: 20px" href="https://www.figma.com/proto/zFSUOUfhdT8Ok30WD8fX2e/Untitled?node-id=402%3A6299&scaling=min-zoom&page-id=201%3A54&starting-point-node-id=402%3A6299&show-proto-sidebar=1">click here</a> to view the final prototype for this project!
+      </div>
     </div>
   </div>
 </div>
@@ -445,10 +376,10 @@
 
 <div class="case_body"><br><center><a href="#top">Back to the top <i class="fa-solid fa-arrow-up"></i></a></center></div>
 
-<br><br><br><br><br><br><br><br><a id="reflecting"></a><br><br><br><br>
+<a id="reflecting"></a><br><br><br><br><br><br>
 
 <div class="case_body">
-  <center><h3> Reflecting </h3></center>
+  <center><h3>Reflecting</h3></center>
 </div>
 
 <div class="divider">
@@ -460,39 +391,53 @@
 
 <div class="container">
   <div class="row">
-    <span class="case_section">future direction</span>
-  </div>
+    <div class="col-3">
+      <span class="case_section">future direction</span>
+    </div>
 
-  <div class="row">
+    <div class="col-9">
       Given the time and scope, I would've loved to spend more time with the following:
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Expanding <span class="bolded">accessibility options</span> for equitable browsing experiences</li><br>
         <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Considering <span class="bolded">different navigational flows</span> for different user types (how might the flow differ for teachers or administrators, if at all?)</li><br>
         <li><span class="fa-li"><i class="fa-solid fa-cloud" style="font-size:12px;"></i></span> Revisiting the copy and tone to ensure <span class="bolded">reachability</span> with all potential users</li>
       </ul>
-  </div>
+    <br><br><br><br><br></div>
 
-  <br><br><br><br><br>
+    <div class="col-3">
+      <span class="case_section">final thoughts</span>
+    </div>
 
-  <div class="row">
-    <span class="case_section">final thoughts</span>
-  </div>
-
-  <div class="row">
+    <div class="col-9">
     This project was challenging because I wanted to give the Department of Education website a refresh while respecting its original branding and existing system. It was fun to try and <span class="bolded">balance</span> while making sure that I <span class="bolded">never lost sight of the main goals</span> for this project.<br><br>
     I also enjoyed seeing what my teammate came up with, since we shared user research but designed different sites. There are so many ways to go about this, and seeing her work was another good reminder that <span class="bolded">there's always another angle to explore.</span>
+    </div>
   </div>
 </div>
 
 <div class="case_body"><br><center><a href="#top">Back to the top <i class="fa-solid fa-arrow-up"></i></a></center></div>
 
 </div>
-
+</body>
 <br><br><br><br><br><br>
 <footer>
   Made with &nbsp;<img src="images/happy.png">, &nbsp;<img src="images/sad.png">, &nbsp;and &nbsp;<img src="images/love.png">.  &nbsp;© 2022 - Tina Dam. &nbsp;All rights reserved.
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-<script src="js/casestudies.js"></script>
-</body>
+
+<script>
+  function myFunction() {
+var x = document.getElementById("myMenunav");
+if (x.className === "menu") {
+  x.className += " responsive";
+} else {
+  x.className = "menu";
+}
+}
+</script>
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
 </html>
