@@ -50,7 +50,6 @@ h4 {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-  margin-left: -0.63em;
 }
 
 a {
@@ -517,26 +516,8 @@ li {
   justify-content: space-between;
 }
 
-.case_left {
-  white-space: nowrap;
-  margin-top: -0.4em;
-}
-
-.case_left img {
-  max-width: 600px;
-  max-height: 600px;
-  object-fit: contain;
-  margin-left: -0.60em;
-}
-
-.case_right {
-  margin-left: 15%;
-  margin-top: -0.4em;
-}
-
 .case_callout {
   background-color: #FFFEF9;
-  margin-left: 13%;
   padding: 32px 5% 32px;
   border-color: #FF00C9;
   border-width: 2px;
@@ -554,7 +535,7 @@ li {
   margin-right: -0.60em;
 }
 
-.container ul span.bolded, .case_callout span.bolded, .case_right span.bolded, .case_left span.bolded {
+.container ul span.bolded, .case_callout span.bolded, .col-9 span.bolded, .col-3 span.bolded {
   margin-left: 0.08em;
   margin-right: 0.08em;
 }
@@ -783,7 +764,22 @@ a:hover {
 }
 
 
+.case_left {
+  white-space: nowrap;
+  margin-top: -0.4em;
+  margin-right: 15%;
+}
 
+.case_left img {
+  max-width: 600px;
+  max-height: 600px;
+  object-fit: contain;
+  margin-left: -0.60em;
+}
+
+.case_right {
+  margin-top: -0.4em;
+}
 
 
   */
