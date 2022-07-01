@@ -5,7 +5,6 @@ body {
     color: #1E0C45;
     font-size: 18px;
     font-family: 'Work Sans', 'Arial', sans-serif;
-    font-weight: lighter;
 }
   
 .bolded {
@@ -33,7 +32,7 @@ h3 {
   font-size: 48px;
   color: #FF00C9;
   line-height: 20%;
-  font-weight: bolder;
+  font-weight: bold;
   text-transform: lowercase;
 }
 
@@ -41,7 +40,6 @@ h4 {
   font-size: 32px;
   color: #1E0C45;
   text-transform: lowercase;
-  font-weight: lighter;
   letter-spacing: 9px;
 }
 
@@ -223,10 +221,10 @@ footer img {
 .header_nav {
   display: inline-table;
   list-style: none;
-  background-color: #FFFEF9;
+  background-color: #fffef9f7;
   height: 75px;
   position: fixed;
-  top: 0;
+  margin-top: 0;
   width: 100%;
   z-index: 1;
 }
@@ -236,12 +234,13 @@ footer img {
   display: inline-block;
   text-decoration: none;
   font-weight: bold;
-  color: #FFFEF9;
   font-size: 28px;
   text-transform: uppercase;
 }
 
-ul {   
+ul {
+  display: block !important;
+  list-style-type: disc !important;
   margin-block-start: 1em !important;
   margin-block-end: 1em !important;
   margin-inline-start: 0px !important;
@@ -256,7 +255,7 @@ ul {
 .logo {
   display: inline-block;
   padding-left: 5%;
-  padding-top: 18px;
+  padding-top: 23px;
 }
 
 .logo img {
@@ -321,7 +320,7 @@ li {
 .work a {
   text-decoration: none;
   text-transform: lowercase;
-  font-weight: lighter;
+  font-weight: bolder !important;
   color: #FFFEF9;
   font-size: 64px;
   transition-delay: 0.2s;
@@ -437,7 +436,7 @@ li {
 .case_body a {
   font-size: 18px;
   color: #4500F5;
-  border-bottom: 3px solid #02EB96;
+  border-bottom: 2px solid #02EB96;
 }
 
 .case_wrapper {
@@ -458,7 +457,7 @@ li {
 .case_wrapper a {
   font-size: 18px;
   color: #4500F5;
-  border-bottom: 3px solid #02EB96;
+  border-bottom: 2px solid #02EB96;
 }
 
 .divider {
@@ -474,11 +473,10 @@ li {
 }
 
 .case_callout {
-  background-color: #FFFEF9;
+  background-color: #1e0c4505;
   padding: 32px 5% 32px;
-  border-color: #FF00C9;
-  border-width: 2px;
-  border-radius: 20px;
+  border-color: #1E0C45;
+  border-width: 1px;
   border-style: solid;
 }
 
@@ -493,7 +491,7 @@ li {
 }
 
 .case_nav {
-  background-color: #FFFEF9;
+  background-color: #fffef9;
   color: #1E0C45;
   top: 0;
   position: relative;
@@ -505,7 +503,7 @@ li {
 .case_nav a {
   font-size: 18px;
   color: #4500F5;
-  border-bottom: 3px solid #02EB96;
+  border-bottom: 2px solid #02EB96;
 }
 
 .case_nav-fixed {
@@ -749,6 +747,57 @@ a:hover {
 .hello img {
   max-width: 65%;
 }
+
+ul {   
+  margin-block-start: 1em !important;
+  margin-block-end: 1em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  padding-inline-start: 40px !important;
+}
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/faaa3545f1.js" crossorigin="anonymous"></script>
+    <title>Tina Dam</title>
+    <link rel="icon" type="image/x-icon" href="images/cloud.png">
+  </head>
+  
+<body>
+  <div class="header_nav">
+
+  <div class="logo">
+    <a href="index.html"><img src="images/td logo.png"></a>
+  </div>
+
+  <div class="menu" id="myMenunav">
+    <ul>
+      <li><a href="about.html" style="color:#FF00C9;">ABOUT </a></li>
+      <li><a href="index.html#work" style="color:#4500F5;">WORK </a></li>
+      <li><a href="Tina Dam Resume_5-2022.pdf" target="_blank" style="color:#1E0C45;">RESUME </a></li>
+      <li class="icon"><a style="color:#1E0C45;" href="javascript:void(0);" onclick="myFunction()">
+        <i class="fa-solid fa-burger"></i></a></li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+
 
   */
 
