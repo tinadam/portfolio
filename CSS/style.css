@@ -26,6 +26,7 @@ h2 {
   color: #4500F5;
   text-transform: lowercase;
   font-weight: bolder;
+  line-height: 100%;
 }
 
 h3 {
@@ -39,8 +40,6 @@ h3 {
 h4 {
   font-size: 32px;
   color: #1E0C45;
-  text-transform: lowercase;
-  letter-spacing: 9px;
 }
 
 .case_section {
@@ -224,7 +223,7 @@ footer img {
   background-color: #fffef9f7;
   height: 75px;
   position: fixed;
-  margin-top: 0;
+  top: 0;
   width: 100%;
   z-index: 1;
 }
@@ -288,70 +287,58 @@ li {
 
 
 /* ----------------- HOME PAGE ----------------- */
-.hi_there {
-  display: flex;
-  flex-direction: column;
-  margin-top: -4em;
-  margin-left: 55%;
-  margin-right: 15%;
-}
-
 .helloooo {
   display: flex;
   flex-direction: column;
   margin-left: 55%;
   margin-bottom: 5%;
   margin-right: 10%;
+  margin-top: 2%;
 }
 
 .work {
+  background-color: #1E0C45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: left;
   opacity: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .work img {
-  max-width: 700px;
-  max-height: 250px;
+  max-width: 800px;
   object-fit: contain;
-  padding: 5%;
+  padding: 10%;
+  margin-bottom: 5%;
   background-color: #FFFEF9;
+}
+
+.work img:hover {
+  max-width: 800px;
+  object-fit: contain;
+  padding: 10%;
+  margin-bottom: 5%;
+  transition-delay: 0.2s;
+  background-color: #02EB96;
 }
 
 .work a {
   text-decoration: none;
   text-transform: lowercase;
-  font-weight: bolder !important;
+  font-weight: bolder;
   color: #FFFEF9;
   font-size: 64px;
+  line-height: 100%;
   transition-delay: 0.2s;
 }
 
 .work a:hover {
   text-decoration: none;
   color: #02EB96 !important;
-}
-
-.main_row {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: #1E0C45;
-  padding-right: 4%;
-}
-
-.main_column {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: center;
-  flex-basis: 100%;
-  flex: 1;
-  padding-left: 8%;
-  padding-right: 4%;
-  padding-top: 8%;
-  padding-bottom: 8%;
 }
 
 
@@ -507,7 +494,7 @@ li {
 }
 
 .case_nav-fixed {
-  top: 75px;
+  top: 67px;
   z-index: 2;
   position: fixed;
   width: 100%;
@@ -538,77 +525,6 @@ li {
  HELPFUL CODE / UNUSED CODE TO REFERENCE:
 
 
-      <div class="me_body">
-      <center>
-      <h2>Let's talk!</h2>      
-      <a href="https://www.linkedin.com/in/damtina/"><i class="fa-brands fa-linkedin" style="font-size: 60px;"></i></a>&nbsp;&nbsp;&nbsp;
-      <a href="mailto:tina99dam@gmail.com"><i class="fa-solid fa-envelope" style="font-size: 60px;"></i></a>
-      </center>
-      </div>
-
-
-
-
-  
-  {display: flex;
-    justify-content: right;
-    padding-top: 15px;
-      padding-right: 35px;
-    align-items: flex;
-    width: 300px;
-    height: 500Px;
-    background-color: #e9decf;
-    color: #2c2d48;
-    border-radius: 30px;
-    border: 1px solid #D1bdaa;
-    font: 100px 'Abril Fatface', cursive;
-    flex-direction: column;
-    align-items: flex-end;}
-    
-    #hello img {
-    max-width: 50%;
-    padding-right: 25%;
-    border: 2px solid #1E0C45;
-  }
-  
-  #header_nav {
-  display:flex;
-  justify-content: space-between;
-  list-style: none;
-}
-  
-  header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border:#CBFF85 3px solid;
-  background-color: #FFFFFF;
-  height: 50px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-  
-
-.header_nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-  
-
-.header_nav ul, .header_nav a {
-  list-style: none;
-  display: flex;
-  text-decoration: none;
-  font-weight: bold;
-  color: #5A24F0;
-  font-size: 16px;
-  font-family: 'Arial', sans-serif;
-  text-transform: uppercase;
-}
 
 alt background colors: #F6F3E8
 #F5F1F4
@@ -617,136 +533,9 @@ the nice blue just in case #0088FF
 
     font-size: 2vw;
 
-  <body style="background-color:#F5FFFB;">
-    <body style="background-color:#FFFFF5;">
-
-
-  .work img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border: #FF00C9 3px solid;
-}
-
-.work {
-  background-color: #FFFFFF;
-  padding: 5%;
-  text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
-  width: 75%;
-}
-
-
-.work a {
-  text-decoration: none;
-  color: #009c63;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.work a:hover {
-  text-decoration: none;
-  color: #02EB96;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-a {
-  text-decoration: none;
-  color: #009c63;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #02EB96;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-    white-space: nowrap;
 
 
 
-    .container ul {
-  list-style: none;
-}
-
-.container li::before {
-  content: "\f0c2";
-  font-family: "Font Awesome 5 Free";
-  padding: 15px 30px 0 0;
-  font-size: 18px;
-  color: #1E0C45;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
-
-<div class="helloooo">
-    <h1>hi there. my name is</h1><h1 style="color: #4500F5">Tina Dam</h1>
-    <h1>i am a</h1><h1 style="color: #4500F5">UX designer in NYC</h1>
-  </div>
-
-   <div class="hello"> 
-      <center><img src="images/portfolio_hello_v2.gif">
-
-      <br><br><br><br>
-      <h4>my name is</h4><h1>Tina Dam</h1><br>
-      <h4>i am a</h4><h2>UX designer in NYC</h2><br><br><br><br><br><br><br><br><br>
-      <h3>Check out my work below</h3><br><br>
-      <img src="images/arrow.png" style="max-height: 500px;"></center>
-  </div>  <a id="work"></a>
-
-  <br><br><br><br>
-
-.hi_there img {
-  margin-top: -12em;
-  margin-bottom: -8em;
-  z-index: -1;
-}
-
-
-.case_left {
-  white-space: nowrap;
-  margin-top: -0.4em;
-  margin-right: 15%;
-}
-
-.case_left img {
-  max-width: 600px;
-  max-height: 600px;
-  object-fit: contain;
-  margin-left: -0.60em;
-}
-
-.case_right {
-  margin-top: -0.4em;
-}
-
-
-.row {
-  display: inline-block;
-  text-align: match-parent;
-}
-
-.hello {
-  display: flex;
-  flex-direction: row;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.hello img {
-  max-width: 65%;
-}
 
 ul {   
   margin-block-start: 1em !important;
@@ -796,6 +585,67 @@ ul {
 
 
 
+
+
+    <div class="main_row">
+      <div class="main_column">
+        <a href="mello.html"><img src="images/mello_v2.png"></a>
+      </div>
+
+      <div class="main_column">
+      <b><a href="mello.html">MENTAL HEALTH APP: ORIGINAL CONCEPT <i class="fa-solid fa-arrow-right-long"></i></a></b>
+      </div>
+    </div>
+
+<br>
+
+    <div class="main_row">
+      <div class="main_column">
+        <a href="US-DOE-redesign.html"><img src="images/US DOE.png"></a>
+      </div>
+
+      <div class="main_column">
+          <b><a href="US-DOE-redesign.html">US DEPARTMENT OF EDUCATION: CASE STUDY <i class="fa-solid fa-arrow-right-long"></i></a></b>
+      </div>
+    </div>
+
+<br>
+
+    <div class="main_row">
+      <div class="main_column">
+       <a href="knew-news.html"><img src="images/Knew News_home.png"></a>
+      </div>
+
+      <div class="main_column">
+      <b><a href="knew-news.html">AUGMENTED REALITY NEWS APP: ORIGINAL CONCEPT <i class="fa-solid fa-arrow-right-long"></i></a></b>
+      </div>
+      </div>
+
+
+
+
+.main_row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #1E0C45;
+  padding-right: 4%;
+}
+
+.main_column {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  flex: 1;
+  padding-left: 8%;
+  padding-right: 4%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
 
 
 
