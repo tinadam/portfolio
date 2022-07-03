@@ -254,7 +254,7 @@ ul {
 .logo {
   display: inline-block;
   padding-left: 5%;
-  padding-top: 23px;
+  padding-top: 25px;
 }
 
 .logo img {
@@ -499,6 +499,11 @@ li {
   position: fixed;
   width: 100%;
 }
+
+.fade_in {
+      opacity:0;
+  }
+  
 
 
 
