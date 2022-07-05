@@ -42,6 +42,12 @@ h4 {
   color: #1E0C45;
 }
 
+.quotes {
+  color: #4500F5;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .case_section {
   font-size: 18px;
   color: #4500F5;
