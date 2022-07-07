@@ -17,7 +17,7 @@ h1 {
   font-size: 72px;
   color: #1E0C45;
   text-transform: lowercase;
-  font-weight: bold;
+  font-weight: bolder;
   display: inline-block;
 }
 
@@ -25,7 +25,7 @@ h2 {
   font-size: 64px;
   color: #4500F5;
   text-transform: lowercase;
-  font-weight: bold;
+  font-weight: bolder;
   line-height: 100%;
 }
 
