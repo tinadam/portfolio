@@ -48,15 +48,13 @@ $(document).ready(function() {
         });
     });
 
-$(document).ready(function() {
-    var navpos = $('#casenav').offset();
-    console.log(navpos.top);
-      $(window).bind('scroll', function() {
-        if ($(window).scrollTop() > navpos.top) {
-         $('#casenav').addClass('case_nav-fixed');
-         }
-         else {
-           $('#casenav').removeClass('case_nav-fixed');
-         }
-      });
+  function updateProgress(num1, num2){
+    var percent = Math.ceil( num1 / num2 * 100 ) + '%';
+    document.getElementById('progressbar').style.width = percent;
+  }
+  
+  window.addEventListener('scroll', function(){
+    var top = window.scrollY;
+    var height = document.body.getBoundingClientRect().height - window.innerHeight;
+    updateProgress(top, height);
   });
