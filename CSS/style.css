@@ -85,11 +85,21 @@ footer img {
 
 /*  ----------------- MEDIA QUERIES ----------------- */
 
+@media only screen and (max-width: 896px) {
+  .helloooo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10em;
+    margin-left: 55%;
+    margin-right: 15%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .body img {
     max-width: 768px !important;
   }
-  .hi_there {
+  .helloooo {
     display: flex;
     flex-direction: column;
     padding-top: 10em;
@@ -111,7 +121,7 @@ footer img {
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 640px) {
   body {
     font-size: 14px;
   }
@@ -124,7 +134,7 @@ footer img {
   h3 {
     font-size: 24px;
   }
-  .hi_there {
+  .helloooo {
     display: flex;
     flex-direction: column;
     padding-top: 10em;
@@ -144,23 +154,23 @@ footer img {
     font-size: 32px !important;
   }
   .work img {
-    max-width: 320px !important;
+    max-width: 640px !important;
     max-height: 250px;
     object-fit: contain;
     padding: 5%;
     background-color: #FFFEF9;
   }
   .body img {
-    max-width: 320px !important;
+    max-width: 640px !important;
   }
   .navbar navbar-default {
-    max-width: 320px;
+    max-width: 640px;
   }
   .case_intro {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 320px;
+    max-width: 640px;
     margin-left: 5%;
     margin-top: 3em;
   }
@@ -168,21 +178,21 @@ footer img {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 320px;
+    max-width: 640px;
     margin-left: 5%;
   }
   .case_body {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 320px;
+    max-width: 640px;
     margin-left: 5%;
   }
   .container {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 320px;
+    max-width: 640px;
     padding-left: 0%;
   }
   .container img {
@@ -204,28 +214,19 @@ footer img {
 
 
 @media screen and (max-width: 600px) {
-  .menu.responsive {position: relative;}
+  .menu.responsive {position: fixed;}
   .menu.responsive .icon {
     position: absolute;
     right: 25px;
     top: 25px;
   }
   .menu.responsive ul li:not(.icon) {
-    position: fixed;
-    left: calc(100% - 292px);
-    top: 10px;
-    color: black;
-    display: none;
-    margin: 120px 30px;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #333;
-    padding: 24px;
-    width: 200px;
+    float: none;
+    display: block;
+    top: 100px;
+    padding-right: 1%;
     text-align: right;
+    z-index: 100;
   }
 }
 
@@ -437,7 +438,9 @@ li {
 }
 
 .case_wrapper {
-  width: 1080px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
   margin: auto;
 }
 
@@ -451,7 +454,7 @@ li {
   border: 1px solid #1E0C45;
 }
 
-.case_wrapper a {
+.container a {
   font-size: 18px;
   color: #4500F5;
   border-bottom: 2px solid #02EB96;
@@ -488,7 +491,7 @@ li {
 }
 
 .case_nav {
-  background-color: #fffef9;
+  background-color: #fffef9f7;
   color: #1E0C45;
   top: 0;
   position: relative;
