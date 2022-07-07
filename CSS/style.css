@@ -359,11 +359,10 @@ li {
 }
 
 .me_body {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  width: 1080px;
+  margin: auto;
 }
 
 .me_body img {
@@ -383,8 +382,8 @@ li {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 1080px;
+  margin: auto;
   padding-bottom: 12%;
 }
 
@@ -487,6 +486,7 @@ li {
   padding-top: 1%;
   padding-bottom: 1%;
   width: 100%;
+  margin-left: 0.60em;
 }
 
 .case_nav a {
@@ -654,6 +654,13 @@ ul {
   padding-bottom: 8%;
 }
 
+.me_body {
+    padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  opacity: 0;
+}
 
 
   */
