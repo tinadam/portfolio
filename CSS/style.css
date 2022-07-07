@@ -211,12 +211,21 @@ footer img {
     top: 25px;
   }
   .menu.responsive ul li:not(.icon) {
-    float: none;
-    display: block;
-    top: 100px;
-    padding-right: 1%;
+    position: fixed;
+    left: calc(100% - 292px);
+    top: 10px;
+    color: black;
+    display: none;
+    margin: 120px 30px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #333;
+    padding: 24px;
+    width: 200px;
     text-align: right;
-    z-index: 100;
   }
 }
 
@@ -661,6 +670,17 @@ ul {
   padding-bottom: 2%;
   opacity: 0;
 }
+
+
+
+  .menu.responsive ul li:not(.icon) {
+    float: none;
+    display: block;
+    top: 100px;
+    padding-right: 1%;
+    text-align: right;
+    z-index: 100;
+  }
 
 
   */
