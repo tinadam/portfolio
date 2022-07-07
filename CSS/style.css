@@ -30,9 +30,8 @@ h2 {
 }
 
 h3 {
-  font-size: 48px;
+  font-size: 56px;
   color: #FF00C9;
-  line-height: 20%;
   font-weight: 600;
   text-transform: lowercase;
 }
@@ -458,18 +457,6 @@ li {
   font-size: 18px;
   color: #4500F5;
   border-bottom: 2px solid #02EB96;
-}
-
-.divider {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.divider img {
-  max-width: 120%;
 }
 
 .case_callout {
