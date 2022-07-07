@@ -218,14 +218,14 @@ footer img {
     position: absolute;
     right: 25px;
     top: 25px;
+    z-index: -1;
   }
   .menu.responsive ul li:not(.icon) {
     float: none;
     display: block;
-    top: 100px;
+    top: 200px;
     padding-right: 1%;
     text-align: right;
-    z-index: 100;
   }
 }
 
