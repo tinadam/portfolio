@@ -24,7 +24,7 @@ $(function() {
 
         var target_bottom = $(this).position().top + $(this).outerHeight();
         var window_bottom = $(window).scrollTop() + $(window).height();
-        window_bottom = window_bottom + 1000;  
+        window_bottom = window_bottom + 2000;  
 
         if( window_bottom > target_bottom ){
 

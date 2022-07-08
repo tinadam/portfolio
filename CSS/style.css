@@ -320,8 +320,8 @@ li {
   opacity: 0;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .work img {
@@ -339,6 +339,7 @@ li {
   margin-bottom: 5%;
   transition-delay: 0.2s;
   background-color: #02EB96;
+  transform: scale(1.2);
 }
 
 .work a {
