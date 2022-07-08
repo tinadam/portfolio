@@ -223,7 +223,7 @@ footer img {
   .menu.responsive ul li:not(.icon) {
     float: none;
     display: block;
-    top: 200px;
+    top: 100px;
     padding-right: 1%;
     text-align: right;
   }
