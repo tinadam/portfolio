@@ -96,7 +96,7 @@ footer img {
 
 @media only screen and (max-width: 768px) {
   .body img {
-    max-width: 768px !important;
+    max-width: 768px;
   }
   .helloooo {
     display: flex;
@@ -114,7 +114,7 @@ footer img {
     margin-top: 3em;
   }
   .container img {
-    max-width: 400px !important;
+    max-width: 400px;
     object-fit: contain;
   }
 }
@@ -125,13 +125,20 @@ footer img {
     font-size: 14px;
   }
   h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
   h2 {
-    font-size: 32px;
+    font-size: 24px;
   }
   h3 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .case_section {
+    font-size: 14px;
+    color: #4500F5;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
   }
   .helloooo {
     display: flex;
@@ -140,29 +147,26 @@ footer img {
     margin-left: 55%;
     margin-right: 15%;
   }
+  .me_body a {
+    border-bottom: none !important;
+    font-size: 48px;
+  }
   .work a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #FFFEF9;
-    font-size: 24px !important;
-    transition-delay: 0.2s;
+    font-size: 24px;
+    border-bottom: none !important;
   }
   .work a:hover {
     text-decoration: none;
-    color: #02EB96 !important;
-    font-size: 32px !important;
+    font-size: 32px;
   }
   .work img {
-    max-width: 640px !important;
+    max-width: 640px;
     max-height: 250px;
     object-fit: contain;
     padding: 5%;
     background-color: #FFFEF9;
   }
   .body img {
-    max-width: 640px !important;
-  }
-  .navbar navbar-default {
     max-width: 640px;
   }
   .case_intro {
@@ -187,6 +191,9 @@ footer img {
     max-width: 640px;
     margin-left: 5%;
   }
+  .case_body a {
+    border-bottom: none !important;
+  }
   .container {
     display: flex;
     flex-direction: column;
@@ -195,8 +202,14 @@ footer img {
     padding-left: 0%;
   }
   .container img {
-    max-width: 200px !important;
+    max-width: 200px;
     object-fit: contain;
+  }
+  .container a {
+    border-bottom: none !important;
+  }
+  .col-9 {
+    margin-left: 20%;
   }
 }
 
