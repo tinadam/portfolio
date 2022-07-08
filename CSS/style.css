@@ -226,7 +226,10 @@ footer img {
 
 
 @media screen and (max-width: 600px) {
-  .menu.responsive {position: relative;}
+  .menu.responsive {
+    background-color:#FFFEF9;
+    position: relative;
+  }
   .menu.responsive .icon {
     position: absolute;
     right: 25px;
@@ -321,7 +324,7 @@ li {
   margin-left: 55%;
   margin-bottom: 5%;
   margin-right: 10%;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .work {
@@ -506,11 +509,8 @@ li {
   transition: width 0.5s;
 }
 
-
-
-
 .fade_in {
-      opacity:0;
+      opacity: 0;
   }
   
 
