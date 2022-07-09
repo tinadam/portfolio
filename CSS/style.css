@@ -2,20 +2,20 @@
 body {
     margin: 0 !important;
     background-color:#FFFEF9;
-    color: #483467;
+    color: #4d3c6a;
     font-size: 20px;
     font-family: 'Work Sans', 'Arial', sans-serif;
 }
   
 .bolded {
-  color: #4d3e74;
+  color: #4d3c6a;
   font-weight: 600;
-  background-color: #6605F514;
+  background-color: #4d3c6a1e;
 }
 
 h1 {
   font-size: 72px;
-  color: #483467;
+  color: #4d3c6a;
   text-transform: lowercase;
   font-weight: 600;
   display: inline-block;
@@ -38,7 +38,7 @@ h3 {
 
 h4 {
   font-size: 32px;
-  color: #4d3e74;
+  color: #4d3c6a;
 }
 
 .quotes {
@@ -49,7 +49,7 @@ h4 {
 
 .case_section {
   font-size: 20px;
-  color: #4d3e74;
+  color: #4d3c6a;
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
@@ -71,7 +71,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#4d3e74;
+  background-color:#4d3c6a;
   height: 100px;
   padding: auto;
   font-size: 16px;
@@ -177,21 +177,15 @@ footer img {
     margin-left: 5%;
     margin-top: 3em;
   }
-  .case_wrapper {
+  .case_wrapper, .case_body {
     display: flex;
     flex-direction: column;
     justify-content: start;
     max-width: 640px;
     margin-left: 5%;
   }
-  .case_body {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 640px;
-    margin-left: 5%;
-  }
-  .case_body a {
+  .case_body a, .container a {
+    font-size: 14px !important;
     border-bottom: none !important;
   }
   .container {
@@ -204,9 +198,6 @@ footer img {
   .container img {
     max-width: 200px;
     object-fit: contain;
-  }
-  .container a {
-    border-bottom: none !important;
   }
   .col-9 {
     margin-left: 20%;
@@ -328,7 +319,7 @@ li {
 }
 
 .work {
-  background-color: #483467;
+  background-color: #4d3c6a;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -398,7 +389,7 @@ li {
 .me_body a {
   text-decoration: none;
   font-weight: bold;
-  color: #4d3e74;
+  color: #4d3c6a;
   border-bottom: 2px solid #78F51D !important;
   font-size: 48px;
   transition-delay: 0.2s;
@@ -447,12 +438,6 @@ li {
   letter-spacing: normal;
 }
 
-.case_body a {
-  font-size: 20px;
-  color: #4d3e74;
-  border-bottom: 2px solid #78F51D;
-}
-
 .case_wrapper {
   display: flex;
   flex-direction: column;
@@ -467,19 +452,21 @@ li {
 }
 
 .container img {
-  border: 1px solid #4d3e74;
+  border: 1px solid #4d3c6a;
 }
 
-.container a {
+.container a, .case_body a {
   font-size: 20px;
-  color: #4d3e74;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4d3c6a;
   border-bottom: 2px solid #78F51D;
 }
 
 .case_callout {
-  background-color: #4d3e7405;
+  background-color: #4d3c6a05;
   padding: 32px 5% 32px;
-  border-color: #4d3e74;
+  border-color: #4d3c6a;
   border-width: 1px;
   border-style: solid;
 }
@@ -500,7 +487,7 @@ li {
   left: 0;
   width: 100%;
   height: 4px;
-  background: #4d3e7405;
+  background: #4d3c6a05;
 }
 .progressbar{
   height: 4px;
@@ -538,7 +525,7 @@ li {
 /*     
  HELPFUL CODE / UNUSED CODE TO REFERENCE:
 
-old navy color #4d3e74
+old navy color #4d3c6a
 
 alt background colors: #F6F3E8
 #F5F1F4
@@ -589,8 +576,8 @@ ul {
     <ul>
       <li><a href="about.html" style="color:#E811F5;">ABOUT </a></li>
       <li><a href="index.html#work" style="color:#6605F5;">WORK </a></li>
-      <li><a href="Tina Dam Resume_5-2022.pdf" target="_blank" style="color:#4d3e74;">RESUME </a></li>
-      <li class="icon"><a style="color:#4d3e74;" href="javascript:void(0);" onclick="myFunction()">
+      <li><a href="Tina Dam Resume_5-2022.pdf" target="_blank" style="color:#4d3c6a;">RESUME </a></li>
+      <li class="icon"><a style="color:#4d3c6a;" href="javascript:void(0);" onclick="myFunction()">
         <i class="fa-solid fa-burger"></i></a></li>
     </ul>
   </div>
@@ -644,7 +631,7 @@ ul {
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #4d3e74;
+  background-color: #4d3c6a;
   padding-right: 4%;
 }
 
