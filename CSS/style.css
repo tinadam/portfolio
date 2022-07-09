@@ -2,20 +2,20 @@
 body {
     margin: 0 !important;
     background-color:#FFFEF9;
-    color: #1E0C45;
+    color: #4a3b69;
     font-size: 20px;
     font-family: 'Work Sans', 'Arial', sans-serif;
 }
   
 .bolded {
-  color: #1E0C45;
+  color: #4A3B69;
   font-weight: 600;
   background-color: #4500f514;
 }
 
 h1 {
   font-size: 72px;
-  color: #1E0C45;
+  color: #4a3b69;
   text-transform: lowercase;
   font-weight: 600;
   display: inline-block;
@@ -38,7 +38,7 @@ h3 {
 
 h4 {
   font-size: 32px;
-  color: #1E0C45;
+  color: #4A3B69;
 }
 
 .quotes {
@@ -49,7 +49,7 @@ h4 {
 
 .case_section {
   font-size: 20px;
-  color: #4500F5;
+  color: #4A3B69;
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
@@ -71,7 +71,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#1E0C45;
+  background-color:#4A3B69;
   height: 100px;
   padding: auto;
   font-size: 16px;
@@ -328,7 +328,7 @@ li {
 }
 
 .work {
-  background-color: #1E0C45;
+  background-color: #4a3b69;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -398,8 +398,8 @@ li {
 .me_body a {
   text-decoration: none;
   font-weight: bold;
-  color: #4500F5;
-  border-bottom: 2px solid #02EB96;
+  color: #4A3B69;
+  border-bottom: 2px solid #02EB96 !important;
   font-size: 48px;
   transition-delay: 0.2s;
 }
@@ -449,7 +449,7 @@ li {
 
 .case_body a {
   font-size: 20px;
-  color: #4500F5;
+  color: #4A3B69;
   border-bottom: 2px solid #02EB96;
 }
 
@@ -467,19 +467,19 @@ li {
 }
 
 .container img {
-  border: 1px solid #1E0C45;
+  border: 1px solid #4A3B69;
 }
 
 .container a {
   font-size: 20px;
-  color: #4500F5;
+  color: #4A3B69;
   border-bottom: 2px solid #02EB96;
 }
 
 .case_callout {
-  background-color: #1e0c4505;
+  background-color: #4A3B6905;
   padding: 32px 5% 32px;
-  border-color: #1E0C45;
+  border-color: #4A3B69;
   border-width: 1px;
   border-style: solid;
 }
@@ -500,7 +500,7 @@ li {
   left: 0;
   width: 100%;
   height: 4px;
-  background: #1e0c4505;
+  background: #4A3B6905;
 }
 .progressbar{
   height: 4px;
@@ -538,7 +538,7 @@ li {
 /*     
  HELPFUL CODE / UNUSED CODE TO REFERENCE:
 
-
+old navy color #4A3B69
 
 alt background colors: #F6F3E8
 #F5F1F4
@@ -589,8 +589,8 @@ ul {
     <ul>
       <li><a href="about.html" style="color:#FF00C9;">ABOUT </a></li>
       <li><a href="index.html#work" style="color:#4500F5;">WORK </a></li>
-      <li><a href="Tina Dam Resume_5-2022.pdf" target="_blank" style="color:#1E0C45;">RESUME </a></li>
-      <li class="icon"><a style="color:#1E0C45;" href="javascript:void(0);" onclick="myFunction()">
+      <li><a href="Tina Dam Resume_5-2022.pdf" target="_blank" style="color:#4A3B69;">RESUME </a></li>
+      <li class="icon"><a style="color:#4A3B69;" href="javascript:void(0);" onclick="myFunction()">
         <i class="fa-solid fa-burger"></i></a></li>
     </ul>
   </div>
@@ -644,7 +644,7 @@ ul {
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #1E0C45;
+  background-color: #4A3B69;
   padding-right: 4%;
 }
 
