@@ -58,10 +58,3 @@ $(document).ready(function() {
     var height = document.body.getBoundingClientRect().height - window.innerHeight;
     updateProgress(top, height);
   });
-
-  window.addEventListener('mouseup', function(event){
-	var menu = document.getElementById('menu');
-	if (event.target != menu && event.target.parentNode != menu){
-        menu.style.display = 'none';
-    }
-});
