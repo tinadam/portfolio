@@ -60,7 +60,7 @@ $(document).ready(function() {
   });
 
   window.addEventListener('mouseup', function(event){
-	var menu = document.getElementById('menu.responsive');
+	var menu = document.getElementById('menu');
 	if (event.target != menu && event.target.parentNode != menu){
         menu.style.display = 'none';
     }
