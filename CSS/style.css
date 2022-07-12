@@ -438,6 +438,13 @@ li {
   border: 1px solid #4d3c6a;
 }
 
+#zoom {
+  transition: transform ease-in-out 0.3s;
+}
+#zoom:hover { 
+  transform: scale(1.5); 
+}
+
 .container a, .case_body a {
   font-size: 20px;
   font-weight: 600;
