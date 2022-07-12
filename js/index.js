@@ -58,3 +58,4 @@ $(document).ready(function() {
     var height = document.body.getBoundingClientRect().height - window.innerHeight;
     updateProgress(top, height);
   });
+

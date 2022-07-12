@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 96px;
   color: #4d3c6a;
   text-transform: lowercase;
   font-weight: 600;
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 72px;
   color: #6605F5;
   text-transform: lowercase;
   font-weight: 600;
@@ -30,15 +30,15 @@ h2 {
 }
 
 h3 {
-  font-size: 56px;
+  font-size: 72px;
   color: #E811F5;
   font-weight: 600;
   text-transform: lowercase;
 }
 
 h4 {
-  font-size: 32px;
-  color: #4d3c6a;
+  font-size: 36px;
+  color: #FFFEF9;
 }
 
 .quotes {
@@ -315,7 +315,7 @@ li {
   margin-left: 55%;
   margin-bottom: 5%;
   margin-right: 10%;
-  margin-top: 8%;
+  margin-top: 4%;
 }
 
 .work {
@@ -383,7 +383,8 @@ li {
 }
 
 .me_body img {
-  max-width: 75px;
+  max-width: 400px;
+  border: 1px solid #4d3c6a;
 }
 
 .me_body a {
@@ -405,7 +406,7 @@ li {
 }
 
 #process img {
-  max-width: 55%;
+  max-width: 75%;
 }
 
 
