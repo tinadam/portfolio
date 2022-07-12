@@ -333,7 +333,7 @@ li {
   text-transform: lowercase;
   font-weight: 600;
   color: #FFFEF9;
-  font-size: 64px;
+  font-size: 72px;
   line-height: 100%;
   transition-delay: 0.2s;
 }
@@ -341,6 +341,14 @@ li {
 .work a:hover {
   text-decoration: none;
   color: #78F51D !important;
+}
+
+.work_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1080px;
+  margin: auto;
 }
 
 
@@ -654,6 +662,8 @@ ul {
     z-index: 100;
   }
 
+
+  style="background-color: #FFFEF9; padding: 32px 5% 32px;"
 
   */
 
