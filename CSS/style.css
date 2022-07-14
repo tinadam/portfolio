@@ -186,6 +186,25 @@ footer img {
 
 
 @media screen and (max-width: 600px) {
+  .header_nav {
+    max-width: 600px;
+  }
+  footer {
+    font-size: 8px;
+    max-width: 600px;
+  }
+  .helloooo {
+    max-width: 600px;
+  }
+  .work {
+    max-width: 600px !important;
+  }
+  .work img {
+    display: none;
+  }
+  .container img {
+    max-width: 200px !important;
+  }
   .menu ul li:not(.icon) {display: none;}
   .menu ul li.icon {
     float: right;
@@ -193,10 +212,6 @@ footer img {
     right: 25px;
     top: 25px;
   }
-}
-
-
-@media screen and (max-width: 600px) {
   .menu.responsive {
     background-color:#FFFEF9;
     position: relative;
@@ -446,7 +461,7 @@ li {
   transition: transform ease-in-out 0.3s;
 }
 #zoom:hover { 
-  transform: scale(1.5); 
+  transform: scale(1.35); 
 }
 
 .container a, .case_body a {
