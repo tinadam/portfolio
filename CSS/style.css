@@ -171,10 +171,10 @@ footer img {
     font-size: 72px;
   }
   h2 {
-    font-size: 64px;
+    font-size: 48px;
   }
   h3 {
-    font-size: 48px;
+    font-size: 36px;
   }
   .case_section {
     font-size: 18px;
@@ -195,7 +195,7 @@ footer img {
     max-width: 896px !important;
   }
   .work a {
-    font-size: 64px !important;
+    font-size: 48px !important;
   }
   .work img {
     max-width: 500px !important;
@@ -240,9 +240,6 @@ footer img {
   }
   .container img {
     max-width: 400px !important;
-  }
-  .col-9 {
-    margin-left: 20%;
   }
   .progressbar_container {
     max-width: 896px !important;
