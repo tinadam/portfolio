@@ -122,10 +122,6 @@ footer img {
     margin-left: 5% !important;
     margin-right: 5% !important;
   }
-  .me_body a {
-    border-bottom: none !important;
-    font-size: 48px;
-  }
   .me_body img {
     max-width: 600px !important;
   }
@@ -149,7 +145,6 @@ footer img {
   }
   .case_body a, .container a {
     font-size: 20px !important;
-    border-bottom: none !important;
   }
   .container {
     display: flex;
@@ -193,12 +188,12 @@ footer img {
     max-height: 10px;
   }
   .helloooo {
-    max-width: 768px;
+    max-width: 896px;
     padding-bottom: 20%;
     padding-top: 5%;
   }
   .work {
-    max-width: 768px !important;
+    max-width: 896px !important;
   }
   .work a {
     font-size: 64px !important;
@@ -214,10 +209,6 @@ footer img {
     margin-left: 5% !important;
     margin-right: 5% !important;
   }
-  .me_body a {
-    border-bottom: none !important;
-    font-size: 48px;
-  }
   .me_body img {
     max-width: 200px !important;
   }
@@ -228,7 +219,7 @@ footer img {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 640px;
+    max-width: 896px;
     margin-left: 5%;
     margin-top: 3em;
   }
@@ -236,18 +227,17 @@ footer img {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 768px;
+    max-width: 896px;
     padding-left: 5%;
   }
   .case_body a, .container a {
     font-size: 18px !important;
-    border-bottom: none !important;
   }
   .container {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 640px;
+    max-width: 896px;
     margin-left: 5% !important;
   }
   .container img {
@@ -257,10 +247,10 @@ footer img {
     margin-left: 20%;
   }
   .progressbar_container {
-    max-width: 768px !important;
+    max-width: 896px !important;
   }
   #progressbar {
-    max-width: 768px !important;
+    max-width: 896px !important;
   }
 }
 
@@ -313,10 +303,6 @@ footer img {
     margin-left: 5% !important;
     margin-right: 5% !important;
   }
-  .me_body a {
-    border-bottom: none !important;
-    font-size: 48px;
-  }
   .me_body img {
     max-width: 200px !important;
   }
@@ -328,7 +314,7 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 640px;
-    margin-left: 5%;
+    margin-left: 5% !important;
     margin-top: 3em;
   }
   .case_wrapper {
@@ -336,18 +322,17 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 640px;
-    padding-left: 5%;
+    padding-left: 5% !important;
   }
   .case_body a, .container a {
     font-size: 14px !important;
-    border-bottom: none !important;
   }
   .container {
     display: flex;
     flex-direction: column;
     justify-content: start;
     max-width: 640px;
-    padding-left: 0%;
+    padding-left: 5% !important;
   }
   .container img {
     max-width: 200px;
@@ -617,6 +602,11 @@ li {
   border: 1px solid #4d3c6a;
 }
 
+.case_nav {
+  max-width: 1080px;
+  text-align: left;
+}
+
 #zoom {
   transition: transform ease-in-out 0.3s;
 }
@@ -624,7 +614,7 @@ li {
   transform: scale(1.35); 
 }
 
-.container a, .case_body a {
+.container a, .case_body a, .case_nav a {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -668,8 +658,6 @@ li {
 .fade_in {
       opacity: 0;
   }
-  
-
 
 
 
