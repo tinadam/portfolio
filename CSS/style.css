@@ -110,7 +110,6 @@ footer img {
   }
   .work a {
     font-size: 72px !important;
-    border-bottom: none !important;
   }
   .work img {
     max-width: 600px !important;
@@ -133,7 +132,7 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 1200px;
-    margin-left: 5%;
+    margin-left: 5% !important;
     margin-top: 3em;
   }
   .case_wrapper {
@@ -141,7 +140,7 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 1200px;
-    padding-left: 5%;
+    padding-left: 5% !important;
   }
   .case_body a, .container a {
     font-size: 20px !important;
@@ -197,7 +196,6 @@ footer img {
   }
   .work a {
     font-size: 64px !important;
-    border-bottom: none !important;
   }
   .work img {
     max-width: 500px !important;
@@ -220,7 +218,7 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 896px;
-    margin-left: 5%;
+    margin-left: 5% !important;
     margin-top: 3em;
   }
   .case_wrapper {
@@ -228,7 +226,7 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 896px;
-    padding-left: 5%;
+    padding-left: 5% !important;
   }
   .case_body a, .container a {
     font-size: 18px !important;
@@ -332,7 +330,7 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 640px;
-    padding-left: 5% !important;
+    margin-left: 5% !important;
   }
   .container img {
     max-width: 200px;
