@@ -140,12 +140,12 @@ footer img {
     margin-left: 5%;
     margin-top: 3em;
   }
-  .case_wrapper, .case_body {
+  .case_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: start;
     max-width: 1200px;
-    margin-left: 5%;
+    padding-left: 5%;
   }
   .case_body a, .container a {
     font-size: 20px !important;
@@ -232,12 +232,12 @@ footer img {
     margin-left: 5%;
     margin-top: 3em;
   }
-  .case_wrapper, .case_body {
+  .case_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: start;
     max-width: 768px;
-    margin-left: 5%;
+    padding-left: 5%;
   }
   .case_body a, .container a {
     font-size: 18px !important;
@@ -282,11 +282,11 @@ footer img {
     font-size: 14px;
   }
   .header_nav {
-    max-width: 640px;
+    max-width: 640px !important;
   }
   footer {
     font-size: 8px;
-    max-width: 640px;
+    max-width: 640px !important;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -331,12 +331,12 @@ footer img {
     margin-left: 5%;
     margin-top: 3em;
   }
-  .case_wrapper, .case_body {
+  .case_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: start;
     max-width: 640px;
-    margin-left: 5%;
+    padding-left: 5%;
   }
   .case_body a, .container a {
     font-size: 14px !important;
@@ -360,10 +360,10 @@ footer img {
     max-width: 200px !important;
   }
   .progressbar_container {
-    max-width: 640px !important;
+    display: none;
   }
   #progressbar {
-    max-width: 640px !important;
+    display: none;
   }
   .menu ul li:not(.icon) {display: none;}
   .menu ul li.icon {
