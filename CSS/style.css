@@ -259,11 +259,13 @@ footer img {
     display: none !important;
   }
   .menu .hamburger {
-      display: flex !important;
-      margin-top: 5px !important;
+    display: block !important;
+    float: right !important;
+    margin-top: 5px !important;
   }
   .menu.responsive {
     display: block !important;
+    float: right !important;
     margin-top: 5px !important;
   }
   .menu.responsive ul li {
