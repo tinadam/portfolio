@@ -162,92 +162,6 @@ footer img {
   }
 }
 
-@media only screen and (max-width: 896px) {
-  body {
-    font-size: 18px;
-  }
-  h1 {
-    font-size: 72px;
-  }
-  h2 {
-    font-size: 48px;
-  }
-  h3 {
-    font-size: 36px;
-  }
-  .case_section {
-    font-size: 18px;
-  }
-  footer {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  footer img {
-    max-height: 10px;
-  }
-  .helloooo {
-    max-width: 896px;
-    padding-bottom: 20%;
-    padding-top: 5%;
-  }
-  .work {
-    max-width: 896px !important;
-  }
-  .work a {
-    font-size: 48px !important;
-  }
-  .work img {
-    max-width: 500px !important;
-  }
-  .me_intro {
-    margin-top: 15%;
-  }
-  .me_body {
-    margin-left: 5% !important;
-    margin-right: 5% !important;
-  }
-  .me_body img {
-    max-width: 200px !important;
-  }
-  #process {
-    max-width: 500px;
-  }
-  .case_intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 896px;
-    margin-left: 5% !important;
-    margin-top: 1em;
-  }
-  .case_wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 896px;
-    padding-left: 5% !important;
-  }
-  .case_body a, .container a {
-    font-size: 18px !important;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 896px;
-    margin-left: 5% !important;
-  }
-  .container img {
-    max-width: 400px !important;
-  }
-  .progressbar_container {
-    max-width: 896px !important;
-  }
-  #progressbar {
-    max-width: 896px !important;
-  }
-}
-
 
 @media only screen and (max-width: 640px) {
   body {
@@ -341,21 +255,19 @@ footer img {
   #progressbar {
     display: none;
   }
-
-
   .menu ul li {
     display: none !important;
   }
   .menu .hamburger {
     display: flex !important;
-    margin-top: 12px;
+    margin-top: 12px !important;
   }
   .menu.responsive ul li {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
     text-align: right !important;
-    margin-top: 12px;
+    margin-top: 12px !important;
   }
 }
 
@@ -363,6 +275,10 @@ footer img {
 
 /*  ----------------- NAVIGATION ----------------- */
 .header_nav {
+  background-color: #fffef9f7;
+  position: fixed;
+  top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   width: unset;
@@ -418,6 +334,7 @@ ul {
   list-style: none !important;
   display: inline-block !important;
   padding-left: 25px;
+  padding-top: 0px;
 }
 
 
@@ -615,7 +532,7 @@ ul {
 
 .progressbar_container {
   position: fixed;
-  top: 100px;
+  top: 85px;
   left: 0;
   width: 100%;
   height: 4px;
