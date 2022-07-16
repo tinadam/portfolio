@@ -268,11 +268,6 @@ footer img {
     justify-content: flex-end !important;
     margin-top: 5px !important;
   }
-  .menu.responsive .hamburger {
-    display: flex !important;
-    float: right !important;
-    margin-top: 5px !important;
-  }
   .menu.responsive ul li {
     display: flex !important;
     flex-direction: column !important;
