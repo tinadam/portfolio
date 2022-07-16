@@ -263,9 +263,7 @@ footer img {
       margin-top: 5px !important;
   }
   .menu.responsive {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: flex-end !important;
+    display: block !important;
     margin-top: 5px !important;
   }
   .menu.responsive ul li {
