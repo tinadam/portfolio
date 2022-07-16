@@ -93,8 +93,8 @@ footer img {
     font-size: 20px;
   }
   footer {
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   footer img {
     max-height: 10px;
@@ -181,9 +181,8 @@ footer img {
   }
   footer {
     font-size: 8px;
-    max-width: 640px !important;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   footer img {
     max-height: 10px;
@@ -261,18 +260,16 @@ footer img {
   .menu .hamburger {
     display: block !important;
     float: right !important;
-    margin-top: 5px !important;
   }
   .menu.responsive {
     display: block !important;
     float: right !important;
-    margin-top: 5px !important;
+    top: 15px !important;
   }
   .menu.responsive ul li {
     display: block !important;
     text-align: right !important;
     line-height: 100% !important;
-    margin-top: 12px !important;
   }
 }
 
