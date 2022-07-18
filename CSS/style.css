@@ -257,7 +257,7 @@ footer img {
   .menu.responsive {
     display: block !important;
     float: right !important;
-    top: 15px !important;
+    margin-top: 15px !important;
   }
   .menu.responsive ul li {
     display: block !important;
@@ -279,7 +279,7 @@ footer img {
   align-items: center;
   width: unset;
   height: 75px;
-  padding-top: 15px;
+  padding-top: 5px;
   padding-left: 5%;
   padding-right: 5%;
   left: 0;
@@ -321,6 +321,7 @@ ul {
   padding: 0px;
   float: unset;
   display: flex;
+  align-items: center;
 }
 
 .menu .hamburger {
