@@ -82,20 +82,8 @@ footer img {
 /*  ----------------- MEDIA QUERIES ----------------- */
 
 @media only screen and (max-width: 1200px) {
-  body {
-    font-size: 20px;
-  }
   h1 {
     font-size: 96px;
-  }
-  h2 {
-    font-size: 72px;
-  }
-  h3 {
-    font-size: 36px;
-  }
-  .case_section {
-    font-size: 20px;
   }
   .helloooo {
     max-width: 1200px;
@@ -104,9 +92,6 @@ footer img {
   }
   .work {
     max-width: 1200px !important;
-  }
-  .work a {
-    font-size: 72px !important;
   }
   .work img {
     max-width: 600px !important;
@@ -122,6 +107,7 @@ footer img {
     max-width: 600px !important;
   }
   #process {
+    margin-left: 5% !important;
     max-width: 800px;
   }
   .case_intro {
@@ -129,7 +115,7 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 1200px;
-    margin-left: 5% !important;
+    padding-left: 2% !important;
     margin-top: 1em;
   }
   .case_wrapper {
@@ -137,7 +123,7 @@ footer img {
     flex-direction: column;
     justify-content: start;
     max-width: 1200px;
-    padding-left: 5% !important;
+    padding-left: 2% !important;
   }
   .case_body a, .container a {
     font-size: 20px !important;
@@ -146,8 +132,7 @@ footer img {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 1200px;
-    margin-left: 5% !important;
+    max-width: 1200px !important;
   }
   .container img {
     max-width: 500px !important;
@@ -157,6 +142,90 @@ footer img {
   }
   #progressbar {
     max-width: 1200px !important;
+  }
+}
+
+
+@media only screen and (max-width: 896px) {
+  body {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .case_section {
+    font-size: 18px;
+  }
+  footer {
+    font-size: 18px;
+  }
+  .helloooo {
+    max-width: 1200px;
+    padding-bottom: 20%;
+    padding-top: 5%;
+  }
+  .work {
+    max-width: 896px !important;
+  }
+  .work a {
+    font-size: 48px !important;
+  }
+  .work img {
+    max-width: 400px !important;
+  }
+  .me_intro {
+    margin-top: 15%;
+  }
+  .me_body {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+  .me_body img {
+    max-width: 400px !important;
+  }
+  #process {
+    margin-left: 5% !important;
+    max-width: 600px;
+  }
+  .case_intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 896px !important;
+    padding-left: 2% !important;
+    margin-top: 1em;
+  }
+  .case_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 896px !important;
+    padding-left: 2% !important;
+  }
+  .case_body a, .container a {
+    font-size: 18px !important;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 896px !important;
+    padding-left: 2% !important;
+  }
+  .container img {
+    max-width: 400px !important;
+  }
+  .progressbar_container {
+    max-width: 896px !important;
+  }
+  #progressbar {
+    max-width: 896px !important;
   }
 }
 
@@ -178,7 +247,7 @@ footer img {
     font-size: 14px;
   }
   footer {
-    font-size: 8px;
+    font-size: 14px;
   }
   footer img {
     max-height: 20px;
@@ -207,22 +276,23 @@ footer img {
     max-width: 200px !important;
   }
   #process {
+    margin-left: 5% !important;
     max-width: 200px;
   }
   .case_intro {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 640px;
-    margin-left: 5% !important;
+    max-width: 640px !important;
+    padding-left: 2% !important;
     margin-top: 1em;
   }
   .case_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 640px;
-    padding-left: 5% !important;
+    max-width: 640px !important;
+    padding-left: 2% !important;
   }
   .case_body a, .container a {
     font-size: 14px !important;
@@ -231,8 +301,8 @@ footer img {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    max-width: 640px;
-    margin-left: 5% !important;
+    max-width: 640px !important;
+    padding-left: 2% !important;
   }
   .col-9 {
     margin-left: 20%;
