@@ -528,8 +528,8 @@ ul {
 }
 
 .container ul span.bolded, .case_callout span.bolded, .col-9 span.bolded, .col-3 span.bolded {
-  margin-left: 0.08em;
-  margin-right: 0.08em;
+  margin-left: 0.01em;
+  margin-right: 0.01em;
 }
 
 .progressbar_container {
