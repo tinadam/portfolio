@@ -219,6 +219,9 @@ footer img {
   .container img {
     max-width: 400px !important;
   }
+  .case_arrow img {
+    max-height: 200px !important;
+  }
   .progressbar_container {
     max-width: 896px !important;
   }
@@ -306,6 +309,9 @@ footer img {
   }
   .container img {
     max-width: 200px !important;
+  }
+  .case_arrow img {
+    max-height: 150px !important;
   }
   .progressbar_container {
     display: none;
@@ -546,6 +552,18 @@ ul {
   max-width: 700px;
   max-height: 500px;
   object-fit: contain;
+}
+
+.case_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.case_arrow img {
+  max-height: 275px;
 }
 
 .container img {
